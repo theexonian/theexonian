@@ -1,0 +1,1 @@
+{"version":"0.9.2","operating_system":"Linux","memory_limit":"128M","auto_updates":true,"beta_builds":false,"php_version":"5.3.26","exif_support":true,"iptc_support":true,"image_processing_support":"ImageMagick 6.6.3-4","ffmpeg_support":false,"upload_limit":25165824,"upload_limit_clean":"24MB","timestamp":1373428058,"rewrite_enabled":true,"mysql_version":"5.5.28-29.3-log"}

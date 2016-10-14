@@ -1,0 +1,23 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^new/(.*)$ $1 [R=301,L]
+</IfModule>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+AddHandler cgi-script .py
+
+AddHandler application/x-httpd-php56 .php .php5 .php4 .php3
+RewriteCond %{HTTP_HOST} ^thexonian\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.thexonian\.com$
+RewriteRule ^/?$ "http\:\/\/theexonian\.com" [R=301,L]
+

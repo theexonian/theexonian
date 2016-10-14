@@ -1,0 +1,8 @@
+#<LimitExcept POST>
+#  Order Allow,Deny
+#  Deny from all
+#</LimitExcept>
+
+AddHandler cgi-script .py
+
+Options +ExecCGI

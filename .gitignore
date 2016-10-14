@@ -1,0 +1,11 @@
+# Huge Space Eaters
+wp-content/**/*
+archives/**/*
+old/**/*
+
+# Password Files
+wp-config.php
+
+# Log Files
+*log
+*.log

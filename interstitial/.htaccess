@@ -1,0 +1,2 @@
+AddHandler cgi-script .cgi .pl .py
+AddHandler cgi-script .py
