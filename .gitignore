@@ -2,6 +2,7 @@
 wp-content/**/*
 archives/**/*
 old/**/*
+oldd/**/*
 
 # Password Files
 wp-config.php
