@@ -1,0 +1,75 @@
+@import url(//fonts.googleapis.com/css?family=Bitter:400,700|PT+Serif:400,700,400italic,700italic|PT+Sans:400,700,400italic);
+
+html body.mceContentBody {
+	max-width: 580px;
+	font-family: "PT Serif",Georgia,Times,serif;
+	font-size: 16px;
+	line-height: 28px;
+	color: #333;
+}
+
+html body.content {
+	max-width: 650px;
+	padding: 6px 0 0 70px !important;
+	background: url(resources/editor-side.png) no-repeat top left;
+}
+
+ul, ol {
+	overflow: hidden;
+	padding: 0 0 0 25px;
+}
+
+ul li, ol li {
+	margin: 0 0 10px 0;
+}
+
+.pullquote {
+	float: left;
+	width: 300px;
+	padding: 15px 15px 20px 17px;
+	background: #EEE;
+	border-top: 4px solid #732121;
+	margin: 5px 30px 15px -70px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	font-size: 20px;
+	line-height: 30px;
+	color: #444;
+	text-align: left;
+}
+
+.full-width {
+	margin: 0 0 20px -70px;
+	padding: 15px;
+	background: #EEE;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-bottom: 1px solid #DDD;
+}
+
+h3 {
+	font-family: "PT Sans",Arial,Helvetica,sans-serif;
+	font-size: 24px;
+	margin: 15px 0 5px 0;
+	color: #444;
+}
+
+h4 {
+	font-family: "PT Sans",Arial,Helvetica,sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 15px 0 15px 0;
+	padding: 0 0 7px 0;
+	border-bottom: 1px dotted #CCC;
+	color: #666;
+}
+
+.ctcc-left-side {
+  font-size: 1.5em;
+}

@@ -1,0 +1,243 @@
+/*
+Theme Name: GTouch Theme
+Description: GTouch Theme
+Author: WiziApp Solutions Ltd.
+Author URI: http://www.wiziapp.com
+Version: 1.0.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-menu, flexible-header, full-width-template, microformats, post-formats, theme-options, threaded-comments, black, white
+Text Domain: wiziapp-theme
+Template: wiziapp
+
+Copyright (C) Wiziapp Solutions Ltd.
+*/
+
+div.wiziapp-panel div.wiziapp-menu-links p:first-child,
+div.ui-loader-default.ui-loader div.wiziapp-menu-links p:first-child,
+ul.wiziapp-content-list.wiziapp-content-comment-list div.wiziapp-menu-links p:first-child,
+.wiziapp-content-post-list .ui-btn-icon-right .ui-icon,
+a.wiziapp-back-button span.ui-btn-text,
+.wiziapp-tabs .wiziapp-add-comment,
+.wiziapp-header-has-back a.wiziapp_new_child_menu {
+	display: none;
+}
+
+.wiziapp-header {
+	color: #282828;
+	background: #dddddd;
+	border: 3px solid #d2d2d2;
+}
+
+.wiziapp-header a, .wiziapp-header a:hover {
+	background: none;
+	border: none;
+	border-radius: 0;
+}
+
+.wiziapp-header a.wiziapp_new_child_menu, .wiziapp-header a.wiziapp_new_child_menu:hover {
+	background: none;
+	border: none;
+	top: 13px !important;
+	left: 10px !important;
+}
+
+.wiziapp-header a.wiziapp-back-button {
+	top: 0 !important;
+}
+
+.wiziapp-header .ui-icon-bars, .wiziapp-header .ui-icon-back, .wiziapp-header .ui-icon-search {
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 0;
+}
+
+.wiziapp-header .ui-icon-bars {
+	margin: 0 !important;
+	font-size: 18px;
+}
+
+.wiziapp-header .ui-icon-search {
+	margin: 0 !important;
+	font-size: 18px;
+}
+
+.wiziapp-header a .ui-btn-inner {
+	border: none;
+	border-radius: 0;
+	height: 40px;
+	padding: 0 !important;
+	width: 18px;
+}
+
+.wiziapp-header a .ui-btn-inner .ui-icon-back {
+	background-position: -368px 11px;
+	background-size: auto 50%;
+	height: 40px;
+	top: 0 !important;
+	left: 0 !important;
+	margin: 0 !important;
+}
+
+.wiziapp-header .new-child-app-icon {
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	min-height: 100%;
+	background-position: 0 center !important;
+	background-size: auto 80% !important;
+}
+
+.wiziapp-content-post-list .wiziapp-post-comments-count {
+	color: #fff;
+	top: auto;
+	bottom: 3px;
+	right: 10px;
+}
+
+.wiziapp-panel, .wiziapp-panel li, .wiziapp-panel li:hover {
+	background: #f9f9f9;
+	border-top: none;
+	border-bottom: 1px solid #d2d2d2;
+}
+
+.wiziapp-panel a {
+	color: #282828;
+}
+
+.wiziapp-panel div.wiziapp-menu-links {
+	border-top: 1px solid #d2d2d2;
+	color: #282828;
+}
+
+.wiziapp-content-post-list li {
+	margin: 10px !important;
+	background: #fff !important;
+	border-bottom: 2px solid #727272;
+}
+
+.wiziapp-content-post-list li:hover {
+	background: #ddd !important;
+}
+
+.wiziapp-content-category-list li, .wiziapp-content-tag-list li, .wiziapp-content-page-list li, .wiziapp-content-bookmark-list li {
+	background: #e5e5e5;
+	border-bottom: 1px solid #d2d2d2;
+	color: #282828;
+}
+
+.wiziapp-content-list li.wiziapp-post-not-featured a.wiziapp-content-list-item {
+	padding-right: 5px;
+}
+
+.wiziapp-content-post-list .wiziapp-post-title {
+	margin: 0;
+}
+
+.wiziapp-content-post-list .wiziapp-post-thumbnail-img-small, .wiziapp-content-post-list .wiziapp-post-thumbnail-img-medium {
+	margin: -0.7em 0 -0.7em -15px;
+	border-radius: 0;
+}
+
+.wiziapp-content-post-list .wiziapp-post-thumbnail-img-small {
+	width: 110px;
+	height: 83px;
+}
+
+.wiziapp-content-post-list .wiziapp-post-not-featured .wiziapp-post-thumbnail-overlay {
+	background: none;
+}
+
+.wiziapp-content-post-list .wiziapp-post-date, .wiziapp-content-post-list .wiziapp-post-author {
+	color: #666;
+}
+
+.wiziapp-content-post-list .wiziapp-post-thumbnail {
+	margin-right: 16px;
+}
+
+.wiziapp-content-post, .wiziapp-content-page {
+	color: #282828;
+}
+
+.wiziapp-content-post .wiziapp-post-author a, .wiziapp-content-page .wiziapp-page-author a {
+	background: none;
+	border: none;
+	color: blue;
+}
+
+.wiziapp-customized-background {
+	background: #e5e5e5;
+}
+
+.wiziapp-customized-background .wiziapp-content-post, .wiziapp-customized-background .wiziapp-content-page {
+	background: #fff;
+	margin: -15px;
+	padding: 15px;
+}
+
+p.wiziapp-new-child-terms a {
+	margin-left: 4px;
+	font-size: 13px;
+}
+
+.wiziapp-tabs {
+	border: none;
+}
+
+.wiziapp-tabs, .wiziapp-tabs-header a {
+	display: inline;
+	border: none;
+}
+
+#respond {
+	padding: 10px;
+	background: #e5e5e5;
+}
+
+#commentform p {
+	margin: 4px auto;
+}
+
+#commentform p.form-submit {
+	text-align: right;
+}
+
+#submit {
+	color: #fff;
+	background: #888;
+	border: none;
+	padding: 8px;
+}
+
+.wiziapp-comment-content textarea {
+	width: 100%;
+	border: 1px solid #000 !important;
+	background: #fff !important;
+}
+
+.wiziapp-comment .wiziapp-comment-text {
+	padding: 20px 0 78px 0;
+	background: #e5e5e5;
+}
+
+.wiziapp-collapsible-comment-replies {
+	bottom: 80px;
+	margin: 30px 10px 0 10px;
+}
+
+.wiziapp-form-comment label.ui-input-text div.ui-input-text, #commentform label.ui-input-text div.ui-input-text, .wiziapp-form-search div.ui-input-text, .wiziapp-page-content form div.ui-input-text {
+	background: #fff;
+}
+
+/**
+ * 	Wordpress comments
+ *
+ *  @author imark
+ *  @date	12/07/2016
+ *
+ */
+.form-submit:before {
+	content: "";
+	clear: both;
+	display: table;
+}

@@ -1,0 +1,17 @@
+.theme-options-wrap {  
+	background:#444;
+	width: 100%;  
+	padding: 3em;  
+	background: white;  
+	box-sizing:border-box;
+}
+.theme-options-wrap #icon-tools {  
+	position: relative;  
+	top: -10px;
+}
+.theme-options-wrap input {  
+	padding: 7px;
+}
+.theme-options-wrap .rcc-message {
+	width:100%;
+}

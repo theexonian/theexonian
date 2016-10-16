@@ -1,0 +1,70 @@
+.customize-control-wiziapp-multi-image .current {
+	margin-bottom: 8px;
+}
+
+.customize-control-wiziapp-multi-image .remove-button,
+.customize-control-wiziapp-multi-image .default-button,
+.customize-control-wiziapp-multi-image .upload-button {
+	white-space: normal;
+	width: 48%;
+	height: auto;
+}
+
+.customize-control-wiziapp-multi-image .current .container {
+	overflow: hidden;
+	-webkit-border-radius: 2px;
+	border: 1px solid #eee;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.customize-control-wiziapp-multi-image .current .container {
+	min-height: 40px;
+}
+
+.customize-control-wiziapp-multi-image .placeholder {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	cursor: default;
+}
+
+.customize-control-wiziapp-multi-image .inner {
+	display: none;
+	position: absolute;
+	width: 100%;
+	color: #555;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.customize-control-wiziapp-multi-image .inner {
+	display: block;
+	min-height: 40px;
+}
+
+.customize-control-wiziapp-multi-image .inner {
+	line-height: 20px;
+	top: 10px;
+}
+
+.customize-control-wiziapp-multi-image .actions {
+	margin-bottom: 32px;
+}
+
+.customize-control-wiziapp-multi-image img {
+	width: 100%;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.customize-control-wiziapp-multi-image .remove-button,
+.customize-control-wiziapp-multi-image .default-button {
+	float: left;
+	margin-right: 3px;
+}
+
+.customize-control-wiziapp-multi-image .upload-button {
+	float: right;
+}

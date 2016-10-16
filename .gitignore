@@ -1,5 +1,5 @@
 # Huge Space Eaters
-wp-content/**/*
+wp-content/uploads/**/*
 archives/**/*
 old/**/*
 

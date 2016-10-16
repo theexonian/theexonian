@@ -1,0 +1,28 @@
+/* CSS Document */
+.mlab-modal-open { overflow: hidden; }
+.mlab-modal { position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 999991; display: none; overflow: auto; overflow-y: scroll; -webkit-overflow-scrolling: touch; outline: 0; background-color: rgba(51,51,51,0.5) }
+.mlab-modal.fades .mlab-modal-dialog { -webkit-transition: -webkit-transform .3s ease-out; -moz-transition: -moz-transform .3s ease-out; -o-transition: -o-transform .3s ease-out; transition: transform .3s ease-out; -webkit-transform: translate(0, -25%); -ms-transform: translate(0, -25%); transform: translate(0, -25%); }
+.mlab-modal.in .mlab-modal-dialog { -webkit-transform: translate(0, 0); -ms-transform: translate(0, 0); transform: translate(0, 0); }
+.mlab-modal-dialog { position: relative; width: auto; margin: 10px; }
+.mlab-modal-content { position: relative; background-color: #fff; background-clip: padding-box; border: 1px solid #999; border: 1px solid rgba(0, 0, 0, .2); border-radius: 6px; outline: none; -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5); box-shadow: 0 3px 9px rgba(0, 0, 0, .5); }
+.mlab-modal-backdrop { position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 50001; background-color: #333; }
+.mlab-modal-backdrop.fades { filter: alpha(opacity=0.5); opacity: 0.5; }
+.mlab-modal-backdrop.in { filter: alpha(opacity=50); opacity: .5; }
+.mlab-modal-header { min-height: 16.42857143px; padding: 15px; border-bottom: 1px solid #e5e5e5; }
+.mlab-modal-header .mlab-close { margin-top: -2px; cursor: pointer; float: right; }
+.mlab-modal-title { margin: 0; line-height: 1.42857143; }
+.mlab-modal-body { position: relative; padding: 20px; }
+.mlab-modal-footer { padding: 19px 20px 20px; margin-top: 15px; text-align: right; border-top: 1px solid #e5e5e5; }
+.mlab-modal-footer .btn + .btn { margin-bottom: 0; margin-left: 5px; }
+.mlab-modal-footer .btn-group .btn + .btn { margin-left: -1px; }
+.mlab-modal-footer .btn-block + .btn-block { margin-left: 0; }
+.mlab_donotshow, .mlab-modal-donotshow { float: left; font-size: 0.9em; color: #666 }
+@media (min-width: 768px) {
+.mlab-modal-dialog { width: 600px; margin: 150px auto; }
+.mlab-modal-content { -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5); box-shadow: 0 5px 15px rgba(0, 0, 0, .5); }
+.mlab-modal-sm { width: 300px; }
+}
+@media (min-width: 992px) {
+.mlab-modal-lg { width: 900px; }
+}
+#preview_help { background-color: rgba(255,51,0,0.6); padding: 5px; color: #FFF; border-radius: 2px;

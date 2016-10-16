@@ -1,0 +1,209 @@
+/*
+Theme Name: iTouch Theme
+Description: iTouch Theme
+Author: WiziApp Solutions Ltd.
+Author URI: http://www.wiziapp.com
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-menu, flexible-header, full-width-template, microformats, post-formats, theme-options, threaded-comments, black, white
+Text Domain: wiziapp-theme
+Template: wiziapp
+
+Copyright (C) Wiziapp Solutions Ltd.
+*/
+
+div.wiziapp-panel div.wiziapp-menu-links p:first-child,
+div.ui-loader-default.ui-loader div.wiziapp-menu-links p:first-child,
+ul.wiziapp-content-list.wiziapp-content-comment-list div.wiziapp-menu-links p:first-child,
+/*.wiziapp-content-post-list .wiziapp-post-comments-count,*/
+.wiziapp-collapsible-comment-replies .wiziapp-collapsible-comment-replies-wedge,
+.wiziapp-tabs .wiziapp-add-comment,
+.wiziapp-header-has-back a.wiziapp_itouch_theme_menu {
+	display: none;
+}
+
+.wiziapp-header {
+	color: #282828;
+	background: #fafafa;
+	border: 3px solid #d2d2d2;
+}
+
+.wiziapp-header a, .wiziapp-header a:hover {
+	background: none;
+	border: none;
+	border-radius: 0;
+}
+
+.wiziapp-header a.wiziapp_itouch_theme_menu, .wiziapp-header a.wiziapp_itouch_theme_menu:hover {
+	top: 13px !important;
+	left: 14px;
+}
+
+.wiziapp-header .ui-icon-bars, .wiziapp-header .ui-icon-back, .wiziapp-header .ui-icon-search {
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 0;
+}
+
+.wiziapp-header .ui-icon-bars {
+	margin: 0 !important;
+	font-size: 18px;
+}
+
+.wiziapp-header .ui-icon-search {
+	margin: 0 !important;
+	font-size: 18px;
+}
+
+.wiziapp-header a .ui-btn-inner {
+	border: none;
+	border-radius: 0;
+}
+
+.wiziapp-header a .ui-btn-inner .ui-icon-back {
+	background-position: -448px 0;
+	background-size: auto 100%;
+}
+
+.wiziapp-panel, .wiziapp-panel li, .wiziapp-panel li:hover {
+	background: #f9f9f9;
+	border-top: none;
+	border-bottom: 1px solid #d2d2d2;
+}
+
+.wiziapp-panel a {
+	color: #282828;
+}
+
+.wiziapp-panel div.wiziapp-menu-links {
+	border-top: 1px solid #d2d2d2;
+	color: #282828;
+}
+
+.wiziapp-content-post-list li {
+	background: #fff !important;
+	border-bottom: 1px solid #a7a7aa;
+}
+
+.wiziapp-content-post-list .wiziapp-post-thumbnail-img-small, .wiziapp-content-post-list .wiziapp-post-thumbnail-img-medium {
+	border-radius: 60px;
+}
+
+.wiziapp-content-post-list .wiziapp-post-thumbnail-img-small {
+	width: 56px;
+}
+
+.wiziapp-content-post .wiziapp-post-author a, .wiziapp-content-page .wiziapp-page-author a {
+	background: none;
+	border: none;
+	color: blue;
+}
+
+.wiziapp-customized-background {
+	background: #efeff4;
+}
+
+.wiziapp-tabs, .wiziapp-tabs-header a {
+	border: none;
+}
+
+.wiziapp-tabs-header a {
+	display: inline;
+}
+
+#commentform p.form-submit {
+	text-align: right;
+}
+
+#submit {
+	color: #fff;
+	background: #888;
+	border: none;
+	padding: 8px;
+}
+
+.wiziapp-comment-content textarea {
+	width: 100%;
+}
+
+.wiziapp-comment .wiziapp-comment-avatar img {
+	border-radius: 30px;
+}
+
+.wiziapp-collapsible-comment-replies {
+	border-top: 1px solid #A7A7AA;
+	border-bottom: 1px solid #A7A7AA;
+	border-left: none;
+	border-right: none;
+}
+
+.wiziapp-collapsible-comment-replies .wiziapp-collapsible-header.wiziapp-collapsible-header-comment-replies span.wiziapp-child-theme-icon {
+	position: absolute;
+	right: 30px;
+	width: 40px;
+	height: 20px;
+    background-position: -1048px -19px;
+}
+
+ul.wiziapp-content-list.wiziapp-content-comment-list {
+	background: #efeff4;
+	margin-bottom: -35px;
+}
+
+ul.wiziapp-content-list.wiziapp-content-comment-list li.wiziapp-comment {
+	margin: 0 0 20px 0;
+	border-bottom: 1px solid #A7A7AA;
+	border-top: 1px solid #A7A7AA;
+}
+
+a.wiziapp-back-button {
+	color: #0000ff;
+}
+
+div.wiziapp_itouch_theme_cells_wrapper, .wiziapp-content-post div.wiziapp-post-content, .wiziapp-content-page div.wiziapp-page-content {
+	margin: 40px -15px;
+	background: #fff;
+	border-top: 1px solid #a7a7aa;
+	border-bottom: 1px solid #a7a7aa;
+}
+
+div.wiziapp_itouch_theme_cells_wrapper p, .wiziapp-content-post div.wiziapp-post-content p {
+	margin: 0 0 -1px 15px;
+	padding: 15px 0;
+	border-bottom: 1px solid #a7a7aa;
+}
+
+div.wiziapp_itouch_theme_cells_wrapper p a, p.wiziapp_itouch_theme_cell a {
+	font-size: 13px;
+	text-decoration: none;
+}
+
+div.wiziapp_itouch_theme_cells_wrapper p span, p.wiziapp_itouch_theme_cell span {
+	width: 110px;
+	display: inline-block;
+}
+
+div.wiziapp-content-page p.wiziapp_itouch_theme_cell {
+	margin: 0 -15px;
+	padding: 15px;
+	border-top: 1px solid #a7a7aa;
+	border-bottom: 1px solid #a7a7aa;
+	background: #fff;
+}
+
+div.wiziapp_itouch_theme_cells_wrapper p input {
+	border: none;
+}
+
+/**
+ * 	Wordpress comments
+ *
+ *  @author imark
+ *  @date	12/07/2016
+ *
+ */
+.form-submit:before {
+	content: "";
+	clear: both;
+	display: table;
+}

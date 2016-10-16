@@ -1,0 +1,139 @@
+# Copyright (C) 2015 Responsive Cookie Consent
+# This file is distributed under the same license as the Responsive Cookie Consent package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Responsive Cookie Consent 1.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/responsive-cookie-"
+"consent\n"
+"POT-Creation-Date: 2015-12-22 21:04:41+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/admin-page.php:27 includes/admin-page.php:172
+msgid "Save Options"
+msgstr ""
+
+#: includes/admin-page.php:33
+msgid "Display"
+msgstr ""
+
+#: includes/admin-page.php:36
+msgid "Enable / Disable"
+msgstr ""
+
+#: includes/admin-page.php:41
+msgid "Show the cookie consent bar?"
+msgstr ""
+
+#: includes/admin-page.php:44
+msgid "Placement"
+msgstr ""
+
+#: includes/admin-page.php:49
+msgid "Front page only?"
+msgstr ""
+
+#: includes/admin-page.php:56
+msgid "General"
+msgstr ""
+
+#: includes/admin-page.php:59
+msgid "Cookie Policy Message"
+msgstr ""
+
+#: includes/admin-page.php:66
+msgid "Accept Button Wording"
+msgstr ""
+
+#: includes/admin-page.php:72
+msgid "More Info Button Wording"
+msgstr ""
+
+#: includes/admin-page.php:78
+msgid "Cookie Policy Page"
+msgstr ""
+
+#: includes/admin-page.php:81
+msgid "E.g. /cookie-policys"
+msgstr ""
+
+#: includes/admin-page.php:88
+msgid "Styling"
+msgstr ""
+
+#: includes/admin-page.php:91
+msgid "Font"
+msgstr ""
+
+#: includes/admin-page.php:94
+msgid "E.g. Century Gothic (with no parenthesis)"
+msgstr ""
+
+#: includes/admin-page.php:98
+msgid "Mobile Width"
+msgstr ""
+
+#: includes/admin-page.php:101
+msgid "%"
+msgstr ""
+
+#: includes/admin-page.php:105
+msgid "Desktop Max Width"
+msgstr ""
+
+#: includes/admin-page.php:108 includes/admin-page.php:115
+#: includes/admin-page.php:140
+msgid "px"
+msgstr ""
+
+#: includes/admin-page.php:112
+msgid "Cookie Bar Padding (Top and Bottom)"
+msgstr ""
+
+#: includes/admin-page.php:119
+msgid "Cookie Bar Background Color"
+msgstr ""
+
+#: includes/admin-page.php:128
+msgid "Cookie Bar Border Bottom Color"
+msgstr ""
+
+#: includes/admin-page.php:137
+msgid "Cookie Bar Border Bottom Size"
+msgstr ""
+
+#: includes/admin-page.php:144
+msgid "Cookie Bar Text Color"
+msgstr ""
+
+#: includes/admin-page.php:153
+msgid "Accept Button Background Color"
+msgstr ""
+
+#: includes/admin-page.php:162
+msgid "Link Color"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Responsive Cookie Consent"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (Responsive Cookie Consent 1.2)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  plugin.pot (Responsive Cookie Consent 1.2)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.jameskoussertari.co.uk"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A really simple, lightweight, responsive cookie consent plugin for WordPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "James Koussertari"
+msgstr ""

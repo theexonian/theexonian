@@ -1,0 +1,1 @@
+<script type="text/javascript" src="//js.live.net/v5.0/wl.js"></script>

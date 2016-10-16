@@ -1,0 +1,169 @@
+/*
+Theme Name: Biz Touch
+Description: Biz Touch
+Author: WiziApp Solutions Ltd.
+Author URI: http://www.wiziapp.com
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-menu, flexible-header, full-width-template, microformats, post-formats, theme-options, threaded-comments, black, white
+Text Domain: wiziapp-theme
+Template: wiziapp
+
+Copyright (C) Wiziapp Solutions Ltd.
+*/
+
+div.wiziapp-panel div.wiziapp-menu-links p:first-child,
+div.ui-loader-default.ui-loader div.wiziapp-menu-links p:first-child,
+ul.wiziapp-content-list.wiziapp-content-comment-list div.wiziapp-menu-links p:first-child,
+.wiziapp-content-post-list .wiziapp-post-thumbnail-img-small,
+ul.wiziapp-content-post-list div.wiziapp-post-thumbnail-img-medium,
+.wiziapp-content-post-list .wiziapp-post-thumbnail-overlay,
+.wiziapp-content-post-list .wiziapp-post-comments-count,
+.wiziapp-content-list .ui-icon-arrow-r,
+.ui-header a.wiziapp-theme-business-touch-hidden {
+	display: none;
+}
+
+div.ui-overlay-a {
+	background: #000;
+}
+
+.wiziapp-business-touch-homescreen {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.wiziapp-business-touch-homescreen a {
+	color: #000;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.wiziapp-business-touch-homescreen-gallery {
+	height: 250px;
+	position: relative;
+	margin: -15px -15px 15px;
+	overflow: hidden;
+}
+
+.wiziapp-business-touch-homescreen-gallery-scroller {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.wiziapp-business-touch-homescreen-gallery-image {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.wiziapp-business-touch-homescreen-gallery-buttons {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+.wiziapp-business-touch-homescreen-gallery-button-left {
+	position: absolute;
+	display: none;
+	cursor: pointer;
+	top: -15px;
+	left: 20px;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background: url(images/btn_left.png) center center no-repeat #888;
+	background-size: 7px 15px;
+}
+
+.wiziapp-business-touch-homescreen-gallery-button-right {
+	position: absolute;
+	display: none;
+	cursor: pointer;
+	top: -15px;
+	right: 20px;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background: url(images/btn_right.png) center center no-repeat #888;
+	background-size: 7px 15px;
+}
+
+.wiziapp-business-touch-homescreen-gallery-overlay {
+	height: 100%;
+	opacity: 0.5;
+}
+
+.wiziapp-business-touch-homescreen-gallery-text-overlay {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+}
+
+.wiziapp-business-touch-homescreen-gallery-text-overlay-text {
+	font-size: 24px;
+	margin: 0 70px;
+}
+
+.wiziapp-business-touch-homescreen-gallery-text-overlay-button {
+	margin-top: 20px;
+}
+
+.wiziapp-business-touch-homescreen-gallery-text-overlay-button a {
+	font-size: 18px;
+	padding: 5px 12px;
+	border-radius: 12px;
+	display: block;
+	width: 250px;
+	height: 50px;
+	margin: 0 auto;
+	line-height: 50px;
+	text-align: center;
+}
+
+.wiziapp-business-touch-homescreen li {
+	border-bottom: 1px solid #888;
+}
+
+.wiziapp-business-touch-homescreen li .ui-icon {
+	background: url(images/more.png) center center no-repeat;
+	background-size: 7px 15px;
+}
+
+ul.wiziapp-content-post-list div.wiziapp-post-thumbnail {
+	float: none !important;
+	width: 100% !important;
+	height: 250px !important;
+}
+
+.wiziapp-content-post-list .wiziapp-post-thumbnail-img-large {
+	display: block !important;
+	background-size: cover;
+	background-position: center;
+}
+
+ul.wiziapp-content-list.wiziapp-content-post-list li.wiziapp-post-not-featured a.wiziapp-content-list-item {
+	padding-right: 15px !important;
+}
+
+.wiziapp-content-post-list li {
+	background: none repeat scroll 0 0 #FFFFFF !important;
+	border-bottom: 2px solid #727272;
+	margin: 10px !important;
+}
+
+/**
+ * 	Wordpress comments
+ *
+ *  @author imark
+ *  @date	12/07/2016
+ *
+ */
+.form-submit:before {
+	content: "";
+	clear: both;
+	display: table;
+}

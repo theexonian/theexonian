@@ -1,0 +1,33 @@
+/*
+Theme Name: Smooth Touch - Pro Edition
+Description: This theme is based on the “Smooth touch Theme” with the following additional features: Customize your App Header layout: Text layout - Enables to set the title and background colors. Image layout - Enables to upload a custom header design. Customize the App’s CSS using wordpress editor. Remove the WiziApp branding from the App’s menu.
+Author: WiziApp Solutions Ltd.
+Author URI: http://www.wiziapp.com
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-menu, flexible-header, full-width-template, microformats, post-formats, theme-options, threaded-comments, black, white
+Text Domain: wiziapp-theme
+Template: wiziapp
+
+Copyright (C) Wiziapp Solutions Ltd.
+*/
+
+div.wiziapp-panel div.wiziapp-menu-links p:first-child,
+div.ui-loader-default.ui-loader div.wiziapp-menu-links p:first-child,
+ul.wiziapp-content-list.wiziapp-content-comment-list div.wiziapp-menu-links p:first-child {
+	display: none;
+}
+
+/**
+ * 	Wordpress comments
+ *
+ *  @author imark
+ *  @date	12/07/2016
+ *
+ */
+.form-submit:before {
+	content: "";
+	clear: both;
+	display: table;
+}

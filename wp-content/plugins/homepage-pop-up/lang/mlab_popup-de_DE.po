@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Homepage Pop-up vVersion 1.2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-03-18 07:31:53+0000\n"
+"Last-Translator: mlab <support@magneticlab.ch>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/functions.php:70
+#@ mlab_popup
+msgid "Update  successful"
+msgstr "Update erfolgreich"
+
+#: includes/functions.php:73
+#@ mlab_popup
+msgid "Unable to update"
+msgstr "Kann nicht aktualisieren"
+
+#: includes/ini.php:42
+#@ mlab_popup
+msgid "Enter your text here"
+msgstr "Geben Sie Ihren Text hier"
+
+#: views/admin.php:34
+#: views/admin.php:38
+#@ mlab_popup
+msgid "Active"
+msgstr "Aktiv"
+
+#: views/admin.php:75
+#@ mlab_popup
+msgid "Heading"
+msgstr "Kopfzeile"
+
+#: views/admin.php:81
+#@ mlab_popup
+msgid "Content"
+msgstr "Text"
+
+#: views/admin.php:46
+#@ mlab_popup
+msgid "Save"
+msgstr "Speichern"
+
+#: views/admin.php:47
+#@ mlab_popup
+msgid "Preview"
+msgstr "Vorschau"
+
+#: views/admin.php:50
+#@ mlab_popup
+msgid "Preview is only available in text mode"
+msgstr "Vorschau ist nur in Textform zur Verfügung"
+
+#: views/admin.php:129
+#: views/popup.php:38
+#@ mlab_popup
+msgid "Close Window"
+msgstr "Fenster schließen"
+
+#: includes/functions.php:78
+#@ mlab_popup
+msgid ""
+"Your URL ist not valide.<br />\n"
+" \t\t  Please provide a valide link. (http://www.example.com)"
+msgstr ""
+"Dieser Link ist ungültig.<br />\n"
+" \\\t\\\t  Geben Sie bitte einen gültiges Link ein. (http://www.example.com)"
+
+#: views/admin.php:30
+#@ mlab_popup
+msgid "Action"
+msgstr "Aktion"
+
+#: views/admin.php:33
+#@ mlab_popup
+msgid "Stat"
+msgstr "Status"
+
+#: views/admin.php:34
+#: views/admin.php:41
+#@ mlab_popup
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: views/admin.php:68
+#@ mlab_popup
+msgid "Width"
+msgstr "Breite"
+
+#: views/admin.php:87
+#@ mlab_popup
+msgid "Call to action"
+msgstr "Link"
+
+#: views/admin.php:89
+#@ mlab_popup
+msgid "Label"
+msgstr "Etikett"
+
+#: views/admin.php:90
+#@ mlab_popup
+msgid "Link"
+msgstr "Link"
+
+#: views/admin.php:117
+#, php-format
+#@ mlab_popup
+msgid "by %1$s | %2$s"
+msgstr "Von %1$s | %2$s"
+
+#: includes/functions.php:138
+#@ mlab_popup
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: views/admin.php:94
+#@ mlab_popup
+msgid "Do not show again option"
+msgstr "Nicht mehr ansehen"
+
+#: views/admin.php:101
+#@ mlab_popup
+msgid "Disable on smartphones"
+msgstr "Deaktiviert auf Smartphones"
+
+#: views/admin.php:136
+#: views/popup.php:50
+#@ mlab_popup
+#@ default
+msgid "Do not show again"
+msgstr "Nicht mehr ansehen"
+

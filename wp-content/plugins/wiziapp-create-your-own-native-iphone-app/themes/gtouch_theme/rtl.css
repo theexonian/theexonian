@@ -1,0 +1,42 @@
+.rtl .wiziapp-header a.wiziapp_new_child_menu, .rtl .wiziapp-header a.wiziapp_new_child_menu:hover {
+	left: auto !important;
+	right: 0 !important;
+}
+
+.rtl .wiziapp-header a .ui-btn-inner .ui-icon-back {
+	left: auto !important;
+	right: 0 !important;
+}
+
+.rtl .wiziapp-header .new-child-app-icon {
+	left: auto;
+	right: 26px;
+}
+
+.rtl .wiziapp-content-post-list .wiziapp-post-comments-count {
+	left: 10px;
+	right: auto;
+}
+
+.rtl .wiziapp-content-list li.wiziapp-post-not-featured a.wiziapp-content-list-item {
+	padding-left: 5px;
+	padding-right: 15px;
+}
+
+.wiziapp-content-post-list .wiziapp-post-thumbnail-img-small, .wiziapp-content-post-list .wiziapp-post-thumbnail-img-medium {
+	margin: -0.7em -15px -0.7em 0;
+}
+
+.rtl .wiziapp-content-post-list .wiziapp-post-thumbnail {
+	margin-left: 16px;
+	margin-right: 0px;
+}
+
+.rtl p.wiziapp-new-child-terms a {
+	margin-left: 0px;
+	margin-right: 4px;
+}
+
+.rtl #commentform p.form-submit {
+	text-align: left;
+}

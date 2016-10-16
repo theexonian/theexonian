@@ -1,0 +1,291 @@
+/*
+Theme Name: MetroTouch
+Description: MetroTouch
+Author: WiziApp Solutions Ltd.
+Author URI: http://www.wiziapp.com
+Version: 1.1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-menu, flexible-header, full-width-template, microformats, post-formats, theme-options, threaded-comments, black, white
+Text Domain: wiziapp-theme
+Template: wiziapp
+
+Copyright (C) Wiziapp Solutions Ltd.
+*/
+
+div.wiziapp-panel div.wiziapp-menu-links p:first-child,
+div.ui-loader-default.ui-loader div.wiziapp-menu-links p:first-child,
+ul.wiziapp-content-list.wiziapp-content-comment-list div.wiziapp-menu-links p:first-child,
+.wiziapp-content-post-list .wiziapp-post-comments-count,
+.wiziapp-archive-calendar,
+.wiziapp-archive-post-count {
+	display: none;
+}
+
+.wiziapp-theme-metro-touch-hidden {
+	display: none !important;
+}
+
+.wiziapp-header, .wiziapp-footer {
+	color: #000;
+	border: none;
+	background: #fff;
+	line-height: 40px;
+}
+
+.wiziapp-header a.wiziapp-back-button {
+	background: url(images/btn_back.png) center center no-repeat;
+	background-size: 25.5px 25.5px;
+	width: 40px;
+	height: 40px;
+	border: none;
+	border-radius: 0;
+}
+
+.wiziapp-header a.wiziapp-back-button .ui-btn-inner {
+	display: none;
+}
+
+.wiziapp-header h1.ui-title {
+	font-size: 18pt;
+}
+
+.wiziapp-metro-touch-menu-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.wiziapp-metro-touch-menu ul.ui-listview {
+	width: 288px;
+	height: 288px;
+	overflow: hidden;
+	margin: 0 auto;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.wiziapp-metro-touch-menu li.ui-btn {
+	float: left;
+	width: 86px;
+	height: 86px;
+	background: #6541bd;
+	margin: 5px;
+	padding: 0;
+}
+
+.wiziapp-metro-touch-menu .ui-btn-inner {
+	height: 100%;
+}
+
+.wiziapp-metro-touch-menu .ui-btn-text {
+	height: 100%;
+}
+
+.wiziapp-metro-touch-menu li.ui-btn a.ui-link-inherit {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font-size: 12pt;
+	padding: 0;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.wiziapp-theme-metro-touch-menu-icon-latest {
+	background-image: url(images/icon_latest.png);
+	background-size: 37px 37.5px;
+}
+
+.wiziapp-theme-metro-touch-menu-icon-categories {
+	background-image: url(images/icon_categories.png);
+	background-size: 39px 26px;
+}
+
+.wiziapp-theme-metro-touch-menu-icon-tags {
+	background-image: url(images/icon_tags.png);
+	background-size: 36px 36px;
+}
+
+.wiziapp-theme-metro-touch-menu-icon-archive_months, .wiziapp-theme-metro-touch-menu-icon-archive_years {
+	background-image: url(images/icon_archive.png);
+	background-size: 27.5px 23px;
+}
+
+.wiziapp-theme-metro-touch-menu-icon-search {
+	background-image: url(images/icon_search.png);
+	background-size: 34.5px 36px;
+}
+
+.wiziapp-theme-metro-touch-menu-icon-pages, .wiziapp-theme-metro-touch-menu-icon-page {
+	background-image: url(images/icon_pages.png);
+	background-size: 30.5px 35.5px;
+}
+
+.wiziapp-theme-metro-touch-menu-icon-bookmarks, .wiziapp-theme-metro-touch-menu-icon-link {
+	background-image: url(images/icon_links.png);
+	background-size: 23.5px 35.5px;
+}
+
+.wiziapp-metro-touch-menu li.ui-btn a.ui-link-inherit span {
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+	width: 100%;
+}
+
+.wiziapp-metro-touch-menu li.wiziapp-metro-touch-menu-separator {
+	height: 0;
+	padding: 0;
+	clear: both;
+}
+
+.wiziapp-content-list li, .wiziapp-content-list li.ui-li {
+	margin: 5px;
+	background: none;
+}
+
+.wiziapp-content-list.wiziapp-content-post-list li, .wiziapp-content-list.wiziapp-content-post-list li.ui-li {
+	background: #c9bde8;
+}
+
+.wiziapp-content-list li .ui-btn-text  a.ui-link-inherit {
+	padding-left: 55px;
+	padding-right: 15px;
+}
+
+.wiziapp-content-list.wiziapp-content-post-list li .ui-btn-text  a.ui-link-inherit {
+	padding-left: 15px;
+	padding-right: 40px;
+	color: #000;
+}
+
+.wiziapp-content-list .ui-icon {
+	background: #6541bd center center no-repeat;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	right: auto;
+	left: 0;
+	top: 0 !important;
+	margin-top: 0 !important;
+	height: 100%;
+	width: 40px;
+}
+
+.wiziapp-content-list.wiziapp-content-post-list span.ui-icon {
+	background: url(images/btn_more.png) center center no-repeat;
+	background-size: 15.5px 15.5px;
+	width: 40px;
+	height: 40px;
+	margin-top: -20px !important;
+	top: 50% !important;
+	left: auto;
+	right: 5px;
+}
+
+.wiziapp-content-page-list .ui-icon {
+	background-image: url(images/icon_pages.png);
+	background-size: 15.25px 17.75px;
+}
+
+.wiziapp-content-category-list .ui-icon {
+	background-image: url(images/icon_category.png);
+	background-size: 5px 5px;
+}
+
+.wiziapp-content-tag-list .ui-icon {
+	background-image: url(images/icon_tags.png);
+	background-size: 18px 18px;
+}
+
+.wiziapp-content-bookmark-list .ui-icon {
+	background-image: url(images/icon_links.png);
+	background-size: 11.75px 17.75px;
+}
+
+.wiziapp-content-post-list div.wiziapp-post-thumbnail-img-small,
+.wiziapp-content-post-list div.wiziapp-post-thumbnail-img-large {
+	display: none;
+}
+
+.wiziapp-content-post-list div.wiziapp-post-thumbnail-img-medium {
+	display: block;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	margin: -0.7em -15px;
+	width: 100px;
+	height: 100px;
+	background-size: cover;
+	background-position: center center;
+}
+
+.wiziapp-content-post-list .wiziapp-post-thumbnail {
+	width: 100px;
+}
+
+ul.wiziapp-content-archive-list.ui-listview {
+	width: 288px;
+	margin: 0 auto;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.wiziapp-content-archive-list li.ui-btn {
+	float: left;
+	width: 86px;
+	height: 86px;
+	background: url(images/icon_archive.png) center center no-repeat #6541bd;
+	background-size: 27.5px 23px;
+	margin: 5px;
+	padding: 0;
+}
+
+.wiziapp-content-archive-list li.ui-btn span.ui-icon {
+	display: none;
+}
+
+.wiziapp-content-archive-list .ui-btn-inner {
+	height: 100%;
+}
+
+.wiziapp-content-archive-list .ui-btn-text {
+	height: 100%;
+}
+
+.wiziapp-content-archive-list li.ui-btn a.ui-link-inherit {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding: 0;
+}
+
+.wiziapp-content-archive-list .wiziapp-archive-title {
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+	width: 100%;
+	text-align: center;
+	font-size: 12pt;
+	font-weight: normal;
+}
+
+/**
+ * 	Wordpress comments
+ *
+ *  @author imark
+ *  @date	12/07/2016
+ *
+ */
+.form-submit:before {
+	content: "";
+	clear: both;
+	display: table;
+}
