@@ -120,10 +120,10 @@ do_action( 'password_protected_login_head' );
 <br>
     <p>
       <label for="email-logger">Email</label><br />
-			<input type="email"  id="email-logger" class="input" value="" size="20" tabindex="20" required/></label>
+			<input type="email"  id="email-logger" class="input" value="bob@exeter.edu" size="20" tabindex="20" required/></label>
 
       <label for="password_protected_pass"><?php _e( 'Password', 'password-protected' ) ?> <span style = "float: right; "><small>Hint: "<a onclick = "autoFill()">FreePress</a>"</small></span>
-			<input type="password" name="password_protected_pwd" id="password_protected_pass" class="input" value="" size="20" tabindex="20" /></label>
+			<input type="password" name="password_protected_pwd" id="password_protected_pass" class="input" value="FreePress" size="20" tabindex="20" /></label>
 		</p>
 		<!--
 		<p class="forgetmenot"><label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever" tabindex="90"<?php checked( ! empty( $_POST['rememberme'] ) ); ?> /> <?php esc_attr_e( 'Remember Me', 'password-protected' ); ?></label></p>
@@ -166,8 +166,9 @@ if(typeof wpOnload=='function')wpOnload();
 	          }
 	        );
 		return true;
-	    }else{
-				return false;
+	    }else{	
+			<small>Wrong Password</small></span>
+			return false;
 			}
 		}
 		else{

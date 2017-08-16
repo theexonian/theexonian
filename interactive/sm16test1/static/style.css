@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,700|Playfair+Display:700);
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('myriad.ttf');
+}
+.highcharts-credits {
+  display: none;
+}
+body {
+  background-image: linear-gradient(135deg, rgba(0,0,0,0.7) 10%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0)),
+                    url('cover.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  width: 100%;
+}
+#cover {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: calc(100% - 85px);
+  padding: 10% 0 0 20%;
+}
+#cover h1 {
+  color: #eeeeee;
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.75);
+  text-transform: none;
+  font-family: 'Playfair Display',Georgia,Times,serif;
+  font-size: 70px;
+  width: 600px;
+  margin: 0 0 0 0;
+}
+#cover p {
+  font-family: 'Myriad Pro';
+  font-size: 14pt;
+  color: #ffffff;
+  margin: 1em 0 1em 0;
+  width: 55%;
+}
+#cover p small {
+}
+#subcover {
+  position: absolute;
+  top: calc(100% - 85px);
+  left: 0px;
+  width: 100%;
+  height: 272px;
+  background-color: rgba(150, 150, 150, 0.9);
+  font-family: 'Source Sans Pro',Arial,Helvetica,sans-serif;
+  padding: 18px 0 0 20%;
+}
+#subcover h3, #subcover p {
+  width: 600px;
+}
+#content {
+  position: absolute;
+  top: calc(100% + 187px);
+  left: 0px;
+  width: 100%;
+  background-color: white;
+  overflow-x: hidden;
+  font-family: 'Source Sans Pro',Arial,Helvetica,sans-serif;
+  padding: 1em 0 0 0;
+}
+#content>div {
+  width: 100%;
+  margin: 2em inherit 2em inherit;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+#content>p {
+  width: 60%;
+  font-size: 22px;
+  margin: 1em auto 2em auto;
+  text-align: center;
+}
+#blurb {
+  text-align: left !important;
+}
+#content strong {
+  color: #c11b17;
+}
+#content hr {
+  margin: 2em auto 2em auto;
+  width: 60%;
+  border: 0.5px solid #eeeeee;
+}
+#participants {
+  display: none;
+}
+.clickable {
+  color: #aaaaaa;
+  cursor: pointer;
+}
+#exparts {
+  display: none;
+  margin-bottom: 1em !important;
+}
+.commentary {
+  min-width: 300px;
+  max-width: 300px;
+  max-height: 400px;
+  background-color: rgba(200, 200, 200, 0.9);
+  padding: 1em;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-bottom: 1px solid #333333;
+  margin-left: 10% !important;
+}
+.commentary h3 {
+  margin: 0 0 0.5em 0;
+  font-size: 16pt;
+  font-weight: bold;
+  color: #333333;
+}
+.htoe {
+  font-weight: normal;
+  color: #888888;
+}
+.uncommented .graph {
+  margin-left: auto;
+  margin-right: auto;
+}
+#sc1 h3, #sc2 h3 {
+  margin: 0;
+  font-size: 14pt;
+  font-weight: normal;
+  color: #333333;
+}
+#sc1, #sc2 {
+  position: absolute;
+  top: 5em;
+}
+#sc1 {
+  left: 20%;
+}
+#sc2 {
+  left: 50%;
+}
+#subcover ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#footer {
+  display: block;
+  font-size: xx-small !important;
+  color: #aaaaaa;
+}

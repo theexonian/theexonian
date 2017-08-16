@@ -27,7 +27,7 @@ $pbjColorizeLight = (ot_get_option('colorize_light','')) ? ot_get_option('colori
 |_____|  |_______/ `.____.'
 
 -->
-
+<meta name="google-site-verification" content="OMWvkRwRqT1iTMh2xQhgYXpThj9T8WfV9zsOwJWqOv8" />
 <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
 <meta charset="utf-8">
 
@@ -123,6 +123,10 @@ body,
 <?php if( ot_get_option('breaking_link_enable',false) == 'true' ) { ?>
 				<a href="<?php echo ot_get_option('breaking_link_href',''); ?>">
 					<?php echo ot_get_option('breaking_link',''); ?> &raquo;
+				</a>
+				&nbsp;|&nbsp;
+				<a href="/gradads/">
+					Grad ads available for purchase. &raquo;
 				</a>
 <?php } ?>
 			</div>

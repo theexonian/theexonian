@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head profile="http://www.w3.org/2005/10/profile">
+<title>Subscribe &raquo; The Exonian</title>
 <link rel="icon" 
       type="image/png" 
       href="https://theexonian.com/wp-content/uploads/2013/04/cropped-WebsiteLogo2-e.png">

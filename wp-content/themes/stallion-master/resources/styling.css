@@ -5,6 +5,7 @@ Originally developed/designed by Brandon Wang
 */
 
 @import url(//fonts.googleapis.com/css?family=Bitter:400,700|PT+Serif:400,700,400italic,700italic|PT+Sans:400,700,400italic);
+@import url(../../stallion-child/style.css);
 
 body {
 	border-top: 5px solid #444;

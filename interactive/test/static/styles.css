@@ -1,0 +1,334 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,700|Playfair+Display:700);
+
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: "Source Sans Pro",Arial,Helvetica,sans-serif;
+}
+
+.exposition {
+    width: 100%;
+    height: 90%;
+    height: calc(100% - 85px);
+    background: #5b7121 url(background.png) 0px -50px;
+    background-size: cover;
+    box-shadow: 0 0 40px rgba(0,0,0,0.3) inset;
+}
+
+.exposition h1 {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    color: #fff;
+    text-shadow: -2px 3px 4px rgba(0,0,0,0.7);
+    font-size: 80px;
+    line-height: 68px;
+    font-weight: normal;
+    font-family: "Playfair Display",Georgia,Times,serif;
+    text-transform: uppercase;
+}
+
+.exposition-text {
+    position: relative;
+    top: 12%;
+}
+
+.exposition p {
+    color: #FFF;
+    font-size: 27px;
+    line-height: 32px;
+    text-shadow: -1px 2px 3px rgba(0,0,0,0.9);
+}
+
+.exonianlogowrap {
+    display: block;
+    width: 262px;
+    height: 85px;
+    padding-top: 20px;
+}
+
+.exonianlogo {
+    text-indent: -9999px;
+    width: 262px;
+    height: 85px;
+    background: url(WebsiteLogo.png) no-repeat;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.exposition-header {
+    margin: 0 auto;
+}
+
+.quicklinks {
+    background: #f8e0e0;
+    padding: 30px 0 30px 0;
+    
+}
+
+.container h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #666;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.spacer {
+    height: 300px;
+}
+
+.quicklinks-itemblock {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.quicklinks-itemblock li {
+    margin-right: 70px;
+    float: left;
+    color: #444;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.quicklinks-itemblock strong {
+    color: #896e6e;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 6px;
+    display: block;
+}
+
+.quicklinks-itemblock a {
+    color: #69861c;
+    text-decoration: none;    
+}
+
+.mainbody-text {
+    width: 63%;
+    float: left;
+}
+
+.mainbody {
+    padding: 20px 0;
+}
+
+.mainbody-text p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.mainbody-text-key {
+    font-size: 26px;
+    line-height: 36px;
+    color: #777;
+}
+
+.mainbody-text-key strong {
+    color: #69861c;
+}
+
+.mainbody-sidebar {
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 0 30px 0;
+    background: #fceaea;
+}
+
+.graph-block-commentary h3 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0;
+    margin: 20px 0 8px 0;
+    color: #a27914;
+}
+
+.mainbody-sidebar li span {
+    font-size: 90%;
+    text-transform: uppercase;
+    color: #999; 
+}
+
+.mainbody-sidebar li {
+    color: #444;
+    margin: 0 0 7px 0;
+    font-size: 16px;
+}
+
+.mainbody-sidebar ul {
+    padding: 0 0 0 18px;
+    margin: 15px 0 0 0;
+}
+
+.mainbody-sidebar-holster {
+    width: 33%;
+    float: right;
+}
+
+.mainbody-sidebar li:last-child {
+    margin: 0;
+}
+
+.exposition-subtitle {
+    background: url(Subtitle.png) no-repeat;
+    height: 140px;
+    width: 649px;
+    margin-top: 40px;
+}
+
+.exposition small {
+    opacity: 0.8;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.quicklinks-itemblock span {
+    font-size: 14px;
+    display: block;
+    line-height: 23px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #a25d5d;
+}
+
+.quicklinks h3 {
+    font-size: 22px;
+    color: #721717;
+}
+
+canvas.chart_main {
+    padding: 25px;
+    background: #EEE;
+    margin: 20px 0 30px 0;
+}
+
+.graph_padded {
+    box-sizing: border-box;
+    padding: 10px 10px 5px 10px;
+    background: #EEE;
+}
+
+.graph-block-commentary p {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.graph-block-graph {
+    width: 63%;
+}
+
+.graph-block-left .graph-block-graph {
+    float: left;
+}
+
+.graph-block-commentary {
+    width: 35%;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+    padding: 0 20px 10px 20px;
+    margin: 0;
+    background: #fceaea;
+    transition: width 0.2s, margin 0.2s, box-shadow 0.2s;
+}
+
+.graph-block-commentary-overflow:hover {
+    width: 60%;
+    position: relative;
+    z-index: 100;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.27);
+}
+
+.graph-block-left .graph-block-commentary-overflow:hover {
+    margin-left: -25%;
+}
+
+.graph-block-right .graph-block-commentary-overflow:hover {
+    margin-right: -25%;
+}
+
+.mainbody-sidebar p {
+    font-size: 16px;
+    color: #444;
+    line-height: 24px;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.graph-block {
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    border-bottom: 1px dotted #d3d3d3;
+}
+
+.graph-block-right .graph-block-graph {
+    float: right;
+}
+
+.graph-block-left .graph-block-commentary {
+    float: right;
+}
+
+.graph-block-right .graph-block-commentary {
+    float: left;
+}
+
+.graph-block-commentary span {
+    text-transform: uppercase;
+    color: #810b0b;
+    font-weight: 600;
+    font-size: 90%;
+}
+
+.graph-header {
+    font-size: 40px;
+    color: #800;
+    font-weight: 600;
+    margin: 50px 0 10px 0;
+    padding: 0 0 8px 0;
+    border-bottom: 1px solid #DDD;
+}
+
+.graph-block-commentary-overflow h3:after {
+    content: " (hover to expand)";
+    color: #b4b4b4;
+}
+
+.graph-block-commentary-overflow {
+    border-bottom: 2px solid #f8b9b9;
+}
+
+a {
+    color: #307690;
+}
+
+.skiplinks {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.skiplinks li {
+    display: inline;
+    padding: 0 20px 0 0;
+    font-size: 14px;
+}
+
+.skiplinks li a {
+    color: #777;
+    text-decoration: none;
+}
+
+.skiplinks li a:hover {
+    text-decoration: underline;
+}

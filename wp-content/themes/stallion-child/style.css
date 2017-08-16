@@ -3,3 +3,33 @@
  Template:     stallion-master
  Version:      0.0.1
 */
+.article .sponsor {
+	float: left;
+	width: 225px;
+	word-break: break-all;
+	margin: 5px 30px 15px -290px;
+	padding: 15px 15px 20px 17px;
+}
+.pullquote {
+	clear: both;
+	position: relative;
+	z-index: 2;
+}
+.sponsor {
+	clear: both;
+	margin: 1em auto;
+	width: 930px;
+	text-align: center;
+	background-color: #ffffff;
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.75);
+}
+.sponsor .sponsor_img {
+	box-shadow: none;
+	border: none;
+	padding: 0;
+}
+.breaking-expo, .expo-breaking-box {
+	background: none !important;
+}

@@ -6,8 +6,8 @@
  * in the theme as custom template tags. Others are attached to action and
  * filter hooks in WordPress to change core functionality.
  *
- * When using a child theme (see http://codex.wordpress.org/Theme_Development and
- * http://codex.wordpress.org/Child_Themes), you can override certain functions
+ * When using a child theme (see https://codex.wordpress.org/Theme_Development and
+ * https://codex.wordpress.org/Child_Themes), you can override certain functions
  * (those wrapped in a function_exists() call) by defining them first in your child theme's
  * functions.php file. The child theme's functions.php file is included before the parent
  * theme's file, so the child theme functions would be used.
@@ -15,7 +15,7 @@
  * Functions that are not pluggable (not wrapped in function_exists()) are instead attached
  * to a filter or action hook.
  *
- * For more information on hooks, actions, and filters, @link http://codex.wordpress.org/Plugin_API
+ * For more information on hooks, actions, and filters, @link https://codex.wordpress.org/Plugin_API
  *
  * @package WordPress
  * @subpackage Twenty_Twelve
@@ -45,11 +45,11 @@ function twentytwelve_setup() {
 	/*
 	 * Makes Twenty Twelve available for translation.
 	 *
-	 * Translations can be added to the /languages/ directory.
+	 * Translations can be filed at WordPress.org. See: https://translate.wordpress.org/projects/wp-themes/twentytwelve
 	 * If you're building a theme based on Twenty Twelve, use a find and replace
 	 * to change 'twentytwelve' to the name of your theme in all the template files.
 	 */
-	load_theme_textdomain( 'twentytwelve', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'twentytwelve' );
 
 	// This theme styles the visual editor with editor-style.css to match the theme style.
 	add_editor_style();
@@ -74,6 +74,9 @@ function twentytwelve_setup() {
 	// This theme uses a custom image size for featured images, displayed on "standard" posts.
 	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size( 624, 9999 ); // Unlimited height, soft crop
+
+	// Indicate widget sidebars can use selective refresh in the Customizer.
+	add_theme_support( 'customize-selective-refresh-widgets' );
 }
 add_action( 'after_setup_theme', 'twentytwelve_setup' );
 
@@ -113,23 +116,20 @@ function twentytwelve_get_font_url() {
 		elseif ( 'vietnamese' == $subset )
 			$subsets .= ',vietnamese';
 
-		$protocol = is_ssl() ? 'https' : 'http';
 		$query_args = array(
 			'family' => 'Open+Sans:400italic,700italic,400,700',
 			'subset' => $subsets,
 		);
-		$font_url = add_query_arg( $query_args, "$protocol://fonts.googleapis.com/css" );
+		$font_url = add_query_arg( $query_args, 'https://fonts.googleapis.com/css' );
 	}
 
 	return $font_url;
 }
 
 /**
- * Enqueue scripts and styles for front-end.
+ * Enqueue scripts and styles for front end.
  *
  * @since Twenty Twelve 1.0
- *
- * @return void
  */
 function twentytwelve_scripts_styles() {
 	global $wp_styles;
@@ -142,7 +142,7 @@ function twentytwelve_scripts_styles() {
 		wp_enqueue_script( 'comment-reply' );
 
 	// Adds JavaScript for handling the navigation menu hide-and-show behavior.
-	wp_enqueue_script( 'twentytwelve-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '1.0', true );
+	wp_enqueue_script( 'twentytwelve-navigation', get_template_directory_uri() . '/js/navigation.js', array( 'jquery' ), '20140711', true );
 
 	$font_url = twentytwelve_get_font_url();
 	if ( ! empty( $font_url ) )
@@ -203,7 +203,7 @@ function twentytwelve_wp_title( $title, $sep ) {
 		return $title;
 
 	// Add the site name.
-	$title .= get_bloginfo( 'name' );
+	$title .= get_bloginfo( 'name', 'display' );
 
 	// Add the site description for the home/front page.
 	$site_description = get_bloginfo( 'description', 'display' );
@@ -211,7 +211,7 @@ function twentytwelve_wp_title( $title, $sep ) {
 		$title = "$title $sep $site_description";
 
 	// Add a page number if necessary.
-	if ( $paged >= 2 || $page >= 2 )
+	if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() )
 		$title = "$title $sep " . sprintf( __( 'Page %s', 'twentytwelve' ), max( $paged, $page ) );
 
 	return $title;
@@ -281,14 +281,12 @@ if ( ! function_exists( 'twentytwelve_content_nav' ) ) :
 function twentytwelve_content_nav( $html_id ) {
 	global $wp_query;
 
-	$html_id = esc_attr( $html_id );
-
 	if ( $wp_query->max_num_pages > 1 ) : ?>
-		<nav id="<?php echo $html_id; ?>" class="navigation" role="navigation">
+		<nav id="<?php echo esc_attr( $html_id ); ?>" class="navigation" role="navigation">
 			<h3 class="assistive-text"><?php _e( 'Post navigation', 'twentytwelve' ); ?></h3>
 			<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'twentytwelve' ) ); ?></div>
 			<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'twentytwelve' ) ); ?></div>
-		</nav><!-- #<?php echo $html_id; ?> .navigation -->
+		</nav><!-- .navigation -->
 	<?php endif;
 }
 endif;
@@ -303,8 +301,6 @@ if ( ! function_exists( 'twentytwelve_comment' ) ) :
  * Used as a callback by wp_list_comments() for displaying the comments.
  *
  * @since Twenty Twelve 1.0
- *
- * @return void
  */
 function twentytwelve_comment( $comment, $args, $depth ) {
 	$GLOBALS['comment'] = $comment;
@@ -368,8 +364,6 @@ if ( ! function_exists( 'twentytwelve_entry_meta' ) ) :
  * Create your own twentytwelve_entry_meta() to override in a child theme.
  *
  * @since Twenty Twelve 1.0
- *
- * @return void
  */
 function twentytwelve_entry_meta() {
 	// Translators: used between list items, there is a space after the comma.
@@ -467,8 +461,6 @@ add_filter( 'body_class', 'twentytwelve_body_class' );
  * templates, and when there are no active widgets in the sidebar.
  *
  * @since Twenty Twelve 1.0
- *
- * @return void
  */
 function twentytwelve_content_width() {
 	if ( is_page_template( 'page-templates/full-width.php' ) || is_attachment() || ! is_active_sidebar( 'sidebar-1' ) ) {
@@ -486,14 +478,50 @@ add_action( 'template_redirect', 'twentytwelve_content_width' );
  * @since Twenty Twelve 1.0
  *
  * @param WP_Customize_Manager $wp_customize Customizer object.
- * @return void
  */
 function twentytwelve_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
 	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
 	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
+
+	if ( isset( $wp_customize->selective_refresh ) ) {
+		$wp_customize->selective_refresh->add_partial( 'blogname', array(
+			'selector' => '.site-title > a',
+			'container_inclusive' => false,
+			'render_callback' => 'twentytwelve_customize_partial_blogname',
+		) );
+		$wp_customize->selective_refresh->add_partial( 'blogdescription', array(
+			'selector' => '.site-description',
+			'container_inclusive' => false,
+			'render_callback' => 'twentytwelve_customize_partial_blogdescription',
+		) );
+	}
 }
 add_action( 'customize_register', 'twentytwelve_customize_register' );
+
+/**
+ * Render the site title for the selective refresh partial.
+ *
+ * @since Twenty Twelve 2.0
+ * @see twentytwelve_customize_register()
+ *
+ * @return void
+ */
+function twentytwelve_customize_partial_blogname() {
+	bloginfo( 'name' );
+}
+
+/**
+ * Render the site tagline for the selective refresh partial.
+ *
+ * @since Twenty Twelve 2.0
+ * @see twentytwelve_customize_register()
+ *
+ * @return void
+ */
+function twentytwelve_customize_partial_blogdescription() {
+	bloginfo( 'description' );
+}
 
 /**
  * Enqueue Javascript postMessage handlers for the Customizer.
@@ -501,10 +529,8 @@ add_action( 'customize_register', 'twentytwelve_customize_register' );
  * Binds JS handlers to make the Customizer preview reload changes asynchronously.
  *
  * @since Twenty Twelve 1.0
- *
- * @return void
  */
 function twentytwelve_customize_preview_js() {
-	wp_enqueue_script( 'twentytwelve-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20130301', true );
+	wp_enqueue_script( 'twentytwelve-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20141120', true );
 }
 add_action( 'customize_preview_init', 'twentytwelve_customize_preview_js' );
