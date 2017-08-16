@@ -13,4 +13,4 @@ wp-config.php
 
 # Internal to the server
 .well-known/*
-
+gh-hook.php
