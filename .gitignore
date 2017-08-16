@@ -10,3 +10,7 @@ wp-config.php
 # Log Files
 *log
 *.log
+
+# Internal to the server
+.well-known/*
+
