@@ -8,5 +8,4 @@ deploy to the site in seconds, so there's no need to modify anything directly.
 - Technical Director: [Carson Fleming](https://github.com/cflems)
 
 ## To-Do List By Priority
-1. Set up a Github hook on the Siteground server.
-2. Figure out how to make setting up a local database easy for new devs.
+1. Figure out how to make setting up a local database easy for new devs.
