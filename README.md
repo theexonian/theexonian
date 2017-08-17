@@ -1,7 +1,7 @@
 # The Exonian
 In the future please commit and push to this repo rather than using Wordpress's
-online file editor. It's a lot cleaner this way. It should automatically deploy
-to the site in seconds.
+online file editor. It's a lot cleaner this way. Any changes should automatically
+deploy to the site in seconds, so there's no need to modify anything directly.
 
 ## Admins
 - Chief Digital Editor: [Stuart Rucker](https://github.com/StuartRucker)
