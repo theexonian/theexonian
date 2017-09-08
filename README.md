@@ -37,7 +37,7 @@ GRANT ALL PRIVILEGES ON theexoni_wp395.* TO 'youruser'@'localhost' IDENTIFIED BY
 won't be the current data.
 The easiest way, for Mac/Linux is:
 ```shell
-mysql -u root -p <install.sql
+sudo mysql -u root -p <install.sql
 ```
 
 5. Correct the site urls. (These are the `home` and `siteurl` options.)
