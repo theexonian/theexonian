@@ -68,3 +68,7 @@ If you have trouble reading articles, go into your local admin panel
 (under Settings > Permalinks).
 
 ## To-Do List By Priority
+1. Shrink install.sql
+  - Install The Exonian + PHPMyAdmin fresh
+  - Delete a bunch of posts (Like everything <2015/16?)
+  - Reset whatever password you hijack to empty in install.sql
