@@ -37,7 +37,7 @@ GRANT ALL PRIVILEGES ON theexoni_wp395.* TO 'youruser'@'localhost' IDENTIFIED BY
 won't be the current data.
 The easiest way, for Mac/Linux is:
 ```shell
-mysql -u root -p <install.sql
+sudo mysql -u root -p <install.sql
 ```
 
 5. Correct the site urls. (These are the `home` and `siteurl` options.)
@@ -58,7 +58,11 @@ This will allow you to log in to the `cflems` administrator account with
 your password. You can also hijack other users on your local installation
 for testing use if you want.
 
-7. Use your testing site.
+7. Generate the `wp-config.php` file.
+This can be done by navigating to your dev site and following the instructions provided.
+Be sure to supply the database, MySQL user, and password you created in step 3. 
+
+8. Use your testing site.
 If you have trouble reading articles, go into your local admin panel
 (http://wherever/wp-admin) and set permalinks to "Plain" 
 (under Settings > Permalinks).
