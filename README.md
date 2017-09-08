@@ -37,8 +37,7 @@ The easiest way, for Mac/Linux is:
 mysql -u root -p <install.sql
 ```
 5. Correct the site urls. (These are the `home` and `siteurl` options.)
-Change `http://localhost/theexonian' to your site URL, no trailing slash.
-SQL code:
+Change `http://localhost/theexonian` to your site URL. No trailing slash.
 ```sql
 USE theexoni_wp395;
 UPDATE wp_options SET option_value = 'http://localhost/theexonian' WHERE option_id = 1 OR option_id = 36;
@@ -53,10 +52,10 @@ UPDATE wp_users SET user_pass = 'your hash value' WHERE user_login = 'cflems';
 This will allow you to log in to the `cflems` administrator account with
 your password. You can also hijack other users on your local installation
 for testing use if you want.
+
 7. Use your testing site.
 If you have trouble reading articles, go into your local admin panel
 (http://wherever/wp-admin) and set permalinks to "Plain" 
 (under Settings > Permalinks).
 
 ## To-Do List By Priority
-1. Figure out how to make setting up a local database easy for new devs.
