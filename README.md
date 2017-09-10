@@ -49,7 +49,7 @@ deploy to the site in seconds, so there's no need to modify anything directly.
 
 6. Fix user passwords. They've been deleted for security reasons.
     Generate a hash for the password you want to use at this link:
-    [WordPress Password Hash](http://www.passwordtool.hu/wordpress-password-hash-generator-v3-v4)
+    [WordPress Password Hash](https://cflems.github.io/wp-hash/)
     ```sql
     USE theexoni_wp395;
     UPDATE wp_users SET user_pass = 'your hash value' WHERE user_login = 'cflems';
