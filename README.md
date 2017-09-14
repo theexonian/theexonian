@@ -18,15 +18,15 @@ deploy to the site in seconds, so there's no need to modify anything directly.
     Then follow the Mac/Linux instructions.
 
 2. Set up PHP, MySQL, and a web server. This part is your preference.
-    Point these to the folder you cloned the repo into. It doesn't have to be
-    the root directory or anywhere special, just remember where you put it.
+    Point these to the folder you cloned the repo into. It doesn't have to
+    be the root directory or anywhere special, just remember where you put
+    it.
 
-    Here is a good all-in-one package if you have no idea what you're doing:
-    [XAMPP](https://www.apache-friends.org/)
-
-    If you're setting up a server or virtual Ubuntu environment, this guide
-    is also pretty stellar:
-    [Digital Ocean: LAMP on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04)
+    - Here is a good all-in-one package if you have no idea what you're
+      doing: [XAMPP](https://www.apachefriends.org/)
+    - If you're setting up a server or virtual environment, this guide
+      is also pretty stellar:
+      [Digital Ocean: LAMP on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04)
 
     If you have any questions after combing these sites, feel free to ask
     or message one of the admins for help.
