@@ -21,6 +21,16 @@ deploy to the site in seconds, so there's no need to modify anything directly.
     Point these to the folder you cloned the repo into. It doesn't have to be
     the root directory or anywhere special, just remember where you put it.
 
+    Here is a good all-in-one package if you have no idea what you're doing:
+    [XAMPP](https://www.apache-friends.org/)
+
+    If you're setting up a server or virtual Ubuntu environment, this guide
+    is also pretty stellar:
+    [Digital Ocean: LAMP on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04)
+
+    If you have any questions after combing these sites, feel free to ask
+    or message one of the admins for help.
+
 3. Create a database `theexoni_wp395` and a user that can access it.
     SQL code:
     ```sql
