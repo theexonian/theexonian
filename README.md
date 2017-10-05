@@ -38,7 +38,7 @@ deploy to the site in seconds, so there's no need to modify anything directly.
     - Here is a good all-in-one package if you have no idea what you're
       doing: [XAMPP](https://www.apachefriends.org/) (The lite version
       should work fine.)
-    - If you're setting up a server or virtual environment, this guide
+    - If you're setting up a server or virtual environment **(not most people)**, this guide
       is also pretty stellar:
       [Digital Ocean: LAMP on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04)
 
