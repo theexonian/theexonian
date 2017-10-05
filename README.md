@@ -8,14 +8,27 @@ deploy to the site in seconds, so there's no need to modify anything directly.
 - Technical Director: [Carson Fleming](https://github.com/cflems)
 
 ## Installation Instructions
-1. Clone this repository into some local folder
-    ### Mac/Linux/Git Terminal:
+1. Install Git on your computer if you don't already have it.
+    Downloads and instructions can be found at [The Git Website](https://git-scm.com/download/).
+
+2. Set up keys so GitHub knows who you are.
+    - Use [this guide](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+      to generate an SSH keypair. Use the links for your particular platform under the article header.
+      You don't have to do the part that starts with `Adding your SSH key to the ssh-agent`. Remember or
+      write down everything you enter while creating the key.
+    - Following this guide will generate a two key files encrypted with a password of your choice. Don't
+      share this password with anyone. You will need it in order to use git with The Exonian. If you lose
+      the password, it's easy to generate new keys, so it's worthwhile to choose a strong one, within reason.
+    - Use [this one](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/) to
+      associate the keypair with your account. Again, use the link for whatever OS you're running.
+
+3. Clone this repository into some local folder.
+    If you're running Windows, your installation of Git should have come with something called
+    Git Terminal. If so, use that. Otherwise, open the terminal app on your computer and type:
     ```shell
     git clone git@github.com:theexonian/theexonian.git ./wherever
     ```
-    ### Windows:
-    Install git at: [Download Git](https://git-scm.com/download/)
-    Then follow the Mac/Linux instructions.
+    where `./wherever` is some folder where you want your test installation to live.
 
 2. Set up PHP, MySQL, and a web server. This part is your preference.
     Point these to the folder you cloned the repo into. It doesn't have to
