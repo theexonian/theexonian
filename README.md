@@ -92,7 +92,10 @@ deploy to the site in seconds, so there's no need to modify anything directly.
     (under Settings > Permalinks).
 
 ## To-Do List By Priority
-1. Shrink install.sql
+1. Pitch cloud upload storage idea. We could be using
+    [WP-Stateless](https://wordpress.org/plugins/wp-stateless/) and save a ton on hosting.
+
+2. Shrink install.sql
     - Install The Exonian + PHPMyAdmin fresh
     - Delete a bunch of posts (Like everything <2015/16?)
     - Export the database with PHPMyAdmin into install.sql
