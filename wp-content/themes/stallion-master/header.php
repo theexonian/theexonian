@@ -27,7 +27,7 @@ $pbjColorizeLight = (ot_get_option('colorize_light','')) ? ot_get_option('colori
 |_____|  |_______/ `.____.'
 
 -->
-<meta name="google-site-verification" content="OMWvkRwRqT1iTMh2xQhgYXpThj9T8WfV9zsOwJWqOv8" />
+<meta name="google-site-verification" content="NSrg2SLf1cJWVd5F6TfmSw3tAPqx9qYZIPj8kUXst54" />
 <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
 <meta charset="utf-8">
 
@@ -116,14 +116,27 @@ body,
 	</div>
 
 <?php if( ot_get_option('breaking_activate',false) == 'true' ) { ?>
+	
 	<div class="expo-breaking-box">
 		<div class="container"><div class="row"><div class="span12">
 			<div class="expo-breaking">
+	<?php if( !isset($_COOKIE['message_for_subscription']) || strcmp($_COOKIE['message_for_subscription'],"0")==0) { ?>
 				<b></b> <?php echo ot_get_option('breaking_text',''); ?>
+	<?php }else{ ?>
+		<b></b> <?php echo $_COOKIE['message_for_subscription']; ?>
+	<?php } ?>
+	
 <?php if( ot_get_option('breaking_link_enable',false) == 'true' ) { ?>
+		
 				<a href="<?php echo ot_get_option('breaking_link_href',''); ?>">
-					<?php echo ot_get_option('breaking_link',''); ?> &raquo;
+          <?php if( !isset($_COOKIE['message_for_subscription']) || strcmp($_COOKIE['message_for_subscription'],"0")==0) { ?>
+                <?php echo ot_get_option('breaking_link',''); ?> &raquo;
+          <?php }else{ ?>
+            Refresh Subscription
+          <?php } ?>
+          
 				</a>
+	
 				&nbsp;|&nbsp;
 				<a href="/gradads/">
 					Grad ads available for purchase. &raquo;
