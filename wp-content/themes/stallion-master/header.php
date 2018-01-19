@@ -136,11 +136,6 @@ body,
           <?php } ?>
           
 				</a>
-	
-				&nbsp;|&nbsp;
-				<a href="/gradads/">
-					Grad ads available for purchase. &raquo;
-				</a>
 <?php } ?>
 			</div>
 		</div></div></div>
