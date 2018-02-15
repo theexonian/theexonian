@@ -1,0 +1,485 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Activate Optin Form"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Activate featured posts"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/recent-posts.php:146
+msgid "All Categories"
+msgstr ""
+
+#. Text in function
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/recent-posts.php:165
+msgid "Almia - Recent Posts"
+msgstr ""
+
+#. Text in echo
+#: template-parts/biography.php:28
+msgid "Author:"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Base Color Scheme"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Carousel"
+msgstr ""
+
+#. Text in echo
+#: inc/widgets/recent-posts.php:145
+msgid "Category:"
+msgstr ""
+
+#. Text in echo
+#: inc/widgets/recent-posts.php:162
+msgid "Comments Number"
+msgstr ""
+
+#. Text in echo
+#: comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in function
+#: inc/template-tags.php:166
+#: template-parts/content.php:43
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Dark"
+msgstr ""
+
+#. Text in echo
+#: inc/widgets/recent-posts.php:161
+msgid "Date"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Default"
+msgstr ""
+
+#. Text in function
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Dismiss this notice"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Display Site Tagline"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Display Site Title"
+msgstr ""
+
+#. Text in function
+#: template-parts/content.php:24
+#: template-parts/content-single.php:58
+#: template-parts/content-search.php:24
+#: template-parts/content-search.php:39
+#: template-parts/content-page.php:33
+#: template-parts/content-featured.php:25
+#: image.php:80
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Text in function
+#: inc/template-tags.php:268
+msgid "FancyThemes"
+msgstr ""
+
+#. Text in echo
+#: template-parts/content.php:16
+#: template-parts/content-featured.php:17
+msgid "Featured"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Featured Posts"
+msgstr ""
+
+#. Text in echo
+#: footer.php:47
+msgid "Footer Primary Menu"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Footer Setting"
+msgstr ""
+
+#. Text in echo
+#: footer.php:58
+msgid "Footer Social Links Menu"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Footer credit text"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Full width"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Gray"
+msgstr ""
+
+#. Text in function
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Install Plugins"
+msgstr ""
+
+#. Text in function
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Install Required Plugins"
+msgstr ""
+
+#. Text in function
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. Text in echo
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#. Text in echo
+#: template-parts/content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Layout Setting"
+msgstr ""
+
+#. Text in function
+#: inc/template-tags.php:1
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Left Sidebar"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Link Color"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Main Text Color"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Make the sidebar sticky on scroll. When sidebar height is shorter than the content area"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Maximum number of posts"
+msgstr ""
+
+#. Text in echo
+#: header.php:47
+msgid "Menu"
+msgstr ""
+
+#. Text in function
+#: single.php:14
+msgid "Next"
+msgstr ""
+
+#. Text in function
+#: image.php:25
+msgid "Next Image"
+msgstr ""
+
+#. Text in function
+#: archive.php:33
+#: index.php:32
+#: search.php:21
+msgid "Next page"
+msgstr ""
+
+#. Text in function
+#: single.php:14
+msgid "Next post:"
+msgstr ""
+
+#. Text in function
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. Text in function
+#: inc/widgets/recent-posts.php:92
+msgid "No comment"
+msgstr ""
+
+#. Text in echo
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#. Text in echo
+#: inc/widgets/recent-posts.php:156
+msgid "Number of posts to show:"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Only if you have Optin Form plugin activated"
+msgstr ""
+
+#. Text in echo
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#. Text in function
+#: template-parts/content.php:43
+#: template-parts/content-single.php:58
+#: template-parts/content-page.php:19
+#: archive.php:33
+#: image.php:80
+#: index.php:32
+#: search.php:21
+msgid "Page"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Page Background Color"
+msgstr ""
+
+#. Text in function
+#: template-parts/content.php:43
+#: template-parts/content-single.php:58
+#: template-parts/content-page.php:19
+#: image.php:80
+msgid "Pages:"
+msgstr ""
+
+#. Text in function
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#. Text in function
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Plugin activated successfully."
+msgstr ""
+
+#. Text in function
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. Text in echo
+#: inc/template-tags.php:268
+msgid "Powered by"
+msgstr ""
+
+#. Text in function
+#: single.php:14
+msgid "Previous"
+msgstr ""
+
+#. Text in function
+#: image.php:24
+msgid "Previous Image"
+msgstr ""
+
+#. Text in function
+#: archive.php:33
+#: index.php:32
+#: search.php:21
+msgid "Previous page"
+msgstr ""
+
+#. Text in function
+#: single.php:14
+msgid "Previous post:"
+msgstr ""
+
+#. Text in echo
+#: header.php:66
+msgid "Primary Menu"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Put sidebar on the left side of content."
+msgstr ""
+
+#. Text in function
+#: template-parts/content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#. Text in function
+#: inc/widgets/recent-posts.php:165
+msgid "Recent Posts"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Red"
+msgstr ""
+
+#. Text in function
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#. Text in function
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Return to the Dashboard"
+msgstr ""
+
+#. Text in function
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Secondary Text Color"
+msgstr ""
+
+#. Text in echo
+#: header.php:27
+msgid "Skip to content"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Slider type"
+msgstr ""
+
+#. Text in echo
+#: header.php:52
+msgid "Social Links Menu"
+msgstr ""
+
+#. Text in function
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. Text in echo
+#: template-parts/content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#. Text in echo
+#: inc/widgets/recent-posts.php:159
+msgid "Sort By:"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Sticky Sidebar"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Tags"
+msgstr ""
+
+#. Text in function
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. Text in function
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#. Text in function
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#. Text in echo
+#: inc/widgets/recent-posts.php:142
+msgid "Title:"
+msgstr ""
+
+#. Text in function
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Update Required"
+msgstr ""
+
+#. Text in function
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#. Text in function
+#: template-parts/biography.php:33
+msgid "View all posts by %s"
+msgstr ""
+
+#. Text in function
+#: inc/template-tags.php:268
+msgid "WordPress"
+msgstr ""
+
+#. Text in function
+#: inc/customizer.php:1025
+msgid "Yellow"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/recent-posts.php:165
+msgid "Your site&#8217;s most recent Posts."
+msgstr ""
+
+#. Text in echo
+#: inc/template-tags.php:268
+msgid "and"
+msgstr ""
+
+#. Text in function
+#: inc/template-tags.php:268
+msgid "https://fancythemes.com/"
+msgstr ""
+
+#. Text in function
+#: inc/template-tags.php:268
+msgid "https://wordpress.org/"
+msgstr ""

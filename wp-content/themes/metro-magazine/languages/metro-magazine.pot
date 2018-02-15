@@ -1,0 +1,750 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2017-09-13 09:36+0000\n"
+"POT-Revision-Date: Thu Jun 02 2016 14:43:30 GMT+0545 (Nepal Standard Time)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: 404.php:12
+msgid "404"
+msgstr ""
+
+#: 404.php:13
+msgid "The requested page cannot be found"
+msgstr ""
+
+#: 404.php:14
+msgid ""
+"Sorry but the page you are looking for cannot be found. Take a moment and do "
+"a search below or start from our"
+msgstr ""
+
+#: 404.php:15
+msgid "homepage."
+msgstr ""
+
+#: archive.php:29 index.php:38 search.php:33
+msgid "<span class=\"fa fa-angle-double-left\"></span>"
+msgstr ""
+
+#: archive.php:30 index.php:39 search.php:34
+msgid "<span class=\"fa fa-angle-double-right\"></span>"
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:51
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:54
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:55
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#. Name of the template
+msgid "Home Page"
+msgstr ""
+
+#: inc/custom-functions.php:45
+msgid "Primary"
+msgstr ""
+
+#: inc/custom-functions.php:46
+msgid "Top Menu"
+msgstr ""
+
+#: inc/extras.php:28
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/extras.php:37
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/extras.php:45
+msgid ", "
+msgstr ""
+
+#: inc/extras.php:47 inc/extras.php:69 inc/widgets/widget-recent-post.php:71
+#: inc/widgets/widget-recent-post.php:71
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/extras.php:77 template-parts/content-page.php:39
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/extras.php:145
+#, php-format
+msgid "<b class=\"fn\">%s</b>"
+msgstr ""
+
+#: inc/extras.php:148
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: inc/extras.php:155 inc/template-functions.php:1114
+#: inc/customizer/catcolor.php:41
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/extras.php:155
+msgid "(Edit)"
+msgstr ""
+
+#: inc/extras.php:189
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: inc/extras.php:204
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#: inc/extras.php:219
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/extras.php:219
+msgid "1 Comment"
+msgstr ""
+
+#: inc/extras.php:219
+msgid "% Comments"
+msgstr ""
+
+#: inc/extras.php:330 inc/customizer/social.php:51
+#: inc/widgets/widget-social-links.php:59
+#: inc/widgets/widget-social-links.php:114
+msgid "Facebook"
+msgstr ""
+
+#: inc/extras.php:332 inc/customizer/social.php:70
+#: inc/widgets/widget-social-links.php:61
+#: inc/widgets/widget-social-links.php:124
+msgid "Twitter"
+msgstr ""
+
+#: inc/extras.php:334 inc/customizer/social.php:88
+#: inc/widgets/widget-social-links.php:134
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/extras.php:336 inc/customizer/social.php:106
+#: inc/widgets/widget-social-links.php:65
+#: inc/widgets/widget-social-links.php:129
+msgid "Pinterest"
+msgstr ""
+
+#: inc/extras.php:338 inc/customizer/social.php:124
+#: inc/widgets/widget-social-links.php:67
+#: inc/widgets/widget-social-links.php:119
+msgid "Instagram"
+msgstr ""
+
+#: inc/extras.php:340 inc/customizer/social.php:142
+#: inc/widgets/widget-social-links.php:139
+msgid "Google Plus"
+msgstr ""
+
+#: inc/extras.php:342 inc/customizer/social.php:160
+msgid "Youtube"
+msgstr ""
+
+#: inc/extras.php:344 inc/customizer/social.php:178
+#: inc/widgets/widget-social-links.php:73
+#: inc/widgets/widget-social-links.php:149
+msgid "OK"
+msgstr ""
+
+#: inc/extras.php:346 inc/customizer/social.php:196
+#: inc/widgets/widget-social-links.php:75
+#: inc/widgets/widget-social-links.php:154
+msgid "VK"
+msgstr ""
+
+#: inc/extras.php:348 inc/customizer/social.php:214
+#: inc/widgets/widget-social-links.php:77
+#: inc/widgets/widget-social-links.php:159
+msgid "Xing"
+msgstr ""
+
+#: inc/extras.php:394
+msgid "Name*"
+msgstr ""
+
+#: inc/extras.php:396
+msgid "Email*"
+msgstr ""
+
+#: inc/extras.php:398
+msgid "Website"
+msgstr ""
+
+#: inc/extras.php:414
+msgid "Comment"
+msgstr ""
+
+#: inc/extras.php:416
+msgid "Submit"
+msgstr ""
+
+#. $id
+#: inc/metabox.php:13
+msgid "Sidebar Layout"
+msgstr ""
+
+#: inc/metabox.php:25
+msgid "Right Sidebar(default)"
+msgstr ""
+
+#: inc/metabox.php:30
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/metabox.php:42
+msgid "Choose Sidebar Template"
+msgstr ""
+
+#: inc/template-functions.php:335 inc/customizer/home.php:217
+msgid "Top News"
+msgstr ""
+
+#: inc/template-functions.php:630
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/template-functions.php:641
+msgid "View Detail"
+msgstr ""
+
+#: inc/template-functions.php:671
+msgid "View all"
+msgstr ""
+
+#: inc/template-functions.php:692 inc/customizer/breadcrumb.php:79
+msgid ">"
+msgstr ""
+
+#: inc/template-functions.php:693 inc/customizer/breadcrumb.php:61
+msgid "Home"
+msgstr ""
+
+#: inc/template-functions.php:717
+msgid "Search Result"
+msgstr ""
+
+#: inc/template-functions.php:785
+msgid "404 Error - Page not Found"
+msgstr ""
+
+#: inc/template-functions.php:794
+msgid "Page"
+msgstr ""
+
+#: inc/template-functions.php:845
+msgid "404 Error - Page Not Found"
+msgstr ""
+
+#: inc/template-functions.php:856
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/template-functions.php:1107
+msgid "&copy;&nbsp;"
+msgstr ""
+
+#: inc/template-functions.php:1109 inc/template-functions.php:1112
+msgid "&nbsp;"
+msgstr ""
+
+#: inc/template-functions.php:1114
+msgid "http://raratheme.com/wordpress-themes/metro-magazine/"
+msgstr ""
+
+#: inc/template-functions.php:1114
+msgid "Metro Magazine By Rara Theme. "
+msgstr ""
+
+#: inc/template-functions.php:1115
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#: inc/template-functions.php:1115
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: inc/template-functions.php:1115
+msgid "WordPress"
+msgstr ""
+
+#: template-parts/content-blog.php:9 template-parts/content-search.php:21
+#: inc/widgets/widget-featured-post.php:95
+#: inc/widgets/widget-featured-post.php:135
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:28 template-parts/content.php:29
+msgid "Pages:"
+msgstr ""
+
+#: inc/customizer/ads.php:14
+msgid "AD Settings"
+msgstr ""
+
+#: inc/customizer/ads.php:15
+msgid "Header & Footer AD Settings"
+msgstr ""
+
+#: inc/customizer/ads.php:33
+msgid "Enable Header AD"
+msgstr ""
+
+#: inc/customizer/ads.php:51
+msgid "Open Link in Different Tab"
+msgstr ""
+
+#: inc/customizer/ads.php:71
+msgid "Upload Header AD"
+msgstr ""
+
+#: inc/customizer/ads.php:91
+msgid "Header AD Link"
+msgstr ""
+
+#: inc/customizer/blog.php:14
+msgid "Blog Page Settings"
+msgstr ""
+
+#: inc/customizer/blog.php:31 inc/customizer/home.php:462
+msgid "Read More Label"
+msgstr ""
+
+#: inc/customizer/breadcrumb.php:15
+msgid "Breadcrumb Settings"
+msgstr ""
+
+#: inc/customizer/breadcrumb.php:33
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: inc/customizer/breadcrumb.php:51
+msgid "Show current"
+msgstr ""
+
+#: inc/customizer/breadcrumb.php:69
+msgid "Breadcrumb Home Text"
+msgstr ""
+
+#: inc/customizer/breadcrumb.php:87
+msgid "Breadcrumb Separator"
+msgstr ""
+
+#: inc/customizer/catcolor.php:14
+msgid "Category Color Settings"
+msgstr ""
+
+#: inc/customizer/catcolor.php:15
+msgid "Choose color for specific category."
+msgstr ""
+
+#: inc/customizer/color.php:14
+msgid "Color Scheme Settings"
+msgstr ""
+
+#: inc/customizer/color.php:15
+msgid "Choose color scheme for theme."
+msgstr ""
+
+#: inc/customizer/color.php:30
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/customizer/custom.php:16
+msgid "Custom CSS Settings"
+msgstr ""
+
+#: inc/customizer/custom.php:34
+msgid "Custom Css"
+msgstr ""
+
+#: inc/customizer/custom.php:36
+msgid "Put your custom CSS"
+msgstr ""
+
+#: inc/customizer/customizer.php:13
+msgid "Choose Post"
+msgstr ""
+
+#: inc/customizer/customizer.php:29
+msgid "Choose Category"
+msgstr ""
+
+#: inc/customizer/default.php:24
+msgid "Default Settings"
+msgstr ""
+
+#: inc/customizer/default.php:25
+msgid "Default section provided by wordpress customizer."
+msgstr ""
+
+#: inc/customizer/footer.php:14
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/footer.php:31
+msgid "Copyright Info"
+msgstr ""
+
+#: inc/customizer/home.php:19
+msgid "Home Page Settings"
+msgstr ""
+
+#: inc/customizer/home.php:20
+msgid "Customize Home Page Settings"
+msgstr ""
+
+#: inc/customizer/home.php:29
+msgid "Featured Post Section"
+msgstr ""
+
+#: inc/customizer/home.php:47
+msgid "Enable Featured Post Section in Home Page"
+msgstr ""
+
+#: inc/customizer/home.php:65
+msgid "Enable Featured Post Section in Archive Page"
+msgstr ""
+
+#: inc/customizer/home.php:83 inc/customizer/home.php:243
+msgid "Select Post One"
+msgstr ""
+
+#: inc/customizer/home.php:102 inc/customizer/home.php:262
+msgid "Select Post Two"
+msgstr ""
+
+#: inc/customizer/home.php:121 inc/customizer/home.php:281
+msgid "Select Post Three"
+msgstr ""
+
+#: inc/customizer/home.php:140 inc/customizer/home.php:300
+msgid "Select Post Four"
+msgstr ""
+
+#: inc/customizer/home.php:159 inc/customizer/home.php:319
+msgid "Select Post Five"
+msgstr ""
+
+#: inc/customizer/home.php:178
+msgid "Select Post Six"
+msgstr ""
+
+#: inc/customizer/home.php:189
+msgid "Top News Section"
+msgstr ""
+
+#: inc/customizer/home.php:207
+msgid "Enable Top News Section"
+msgstr ""
+
+#: inc/customizer/home.php:225
+msgid "Top News Label"
+msgstr ""
+
+#: inc/customizer/home.php:338
+msgid "Select Post six"
+msgstr ""
+
+#: inc/customizer/home.php:349
+msgid "Category Section"
+msgstr ""
+
+#: inc/customizer/home.php:367
+msgid "Select Category One"
+msgstr ""
+
+#: inc/customizer/home.php:386
+msgid "Select Category Two"
+msgstr ""
+
+#: inc/customizer/home.php:405
+msgid "Select Category Three"
+msgstr ""
+
+#: inc/customizer/home.php:424
+msgid "Select Category Four"
+msgstr ""
+
+#: inc/customizer/home.php:443
+msgid "Select Category Five"
+msgstr ""
+
+#: inc/customizer/home.php:445
+msgid ""
+"If this category five has not been selected then latest posts will be "
+"displayed"
+msgstr ""
+
+#: inc/customizer/info.php:11
+msgid "Information Links"
+msgstr ""
+
+#: inc/customizer/info.php:21
+msgid "Need help?"
+msgstr ""
+
+#: inc/customizer/info.php:22
+msgid "View demo"
+msgstr ""
+
+#: inc/customizer/info.php:22 inc/customizer/info.php:23
+#: inc/customizer/info.php:24 inc/customizer/info.php:25
+#: inc/customizer/info.php:26 inc/customizer/info.php:27
+msgid "here"
+msgstr ""
+
+#: inc/customizer/info.php:23
+msgid "View documentation"
+msgstr ""
+
+#: inc/customizer/info.php:24
+msgid "Theme info"
+msgstr ""
+
+#: inc/customizer/info.php:25
+msgid "Support ticket"
+msgstr ""
+
+#: inc/customizer/info.php:26
+msgid "Rate this theme"
+msgstr ""
+
+#: inc/customizer/info.php:27
+msgid "More WordPress Themes"
+msgstr ""
+
+#: inc/customizer/info.php:31
+msgid "About Metro Magazine"
+msgstr ""
+
+#: inc/customizer/info.php:149
+msgid "Pro Available"
+msgstr ""
+
+#: inc/customizer/info.php:151
+msgid "VIEW PRO THEME"
+msgstr ""
+
+#: inc/customizer/social.php:14
+msgid "Social Settings"
+msgstr ""
+
+#: inc/customizer/social.php:15
+msgid "Leave blank if you do not want to show the social link."
+msgstr ""
+
+#: inc/customizer/social.php:33
+msgid "Enable Social Links"
+msgstr ""
+
+#. Base ID
+#: inc/widgets/widget-featured-post.php:25
+msgid "RARA: Featured Post"
+msgstr ""
+
+#: inc/widgets/widget-featured-post.php:26
+msgid "A Featured Post Widget"
+msgstr ""
+
+#: inc/widgets/widget-featured-post.php:83
+msgid "--Choose--"
+msgstr ""
+
+#: inc/widgets/widget-featured-post.php:100
+msgid "Posts"
+msgstr ""
+
+#: inc/widgets/widget-featured-post.php:110
+msgid "Read More Text"
+msgstr ""
+
+#: inc/widgets/widget-featured-post.php:116
+#: inc/widgets/widget-popular-post.php:119
+#: inc/widgets/widget-recent-post.php:115
+msgid "Show Post Thumbnail"
+msgstr ""
+
+#. Base ID
+#: inc/widgets/widget-popular-post.php:25
+msgid "RARA: Popular Post"
+msgstr ""
+
+#: inc/widgets/widget-popular-post.php:26
+msgid "A Popular Post Widget"
+msgstr ""
+
+#: inc/widgets/widget-popular-post.php:108
+#: inc/widgets/widget-recent-post.php:104
+#: inc/widgets/widget-social-links.php:109
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/widget-popular-post.php:113
+#: inc/widgets/widget-recent-post.php:109
+msgid "Number of Posts"
+msgstr ""
+
+#: inc/widgets/widget-popular-post.php:124
+#: inc/widgets/widget-recent-post.php:120
+msgid "Show Post Date"
+msgstr ""
+
+#. Base ID
+#: inc/widgets/widget-recent-post.php:25
+msgid "RARA: Recent Post"
+msgstr ""
+
+#: inc/widgets/widget-recent-post.php:26
+msgid "A Recent Post Widget"
+msgstr ""
+
+#. Base ID
+#: inc/widgets/widget-social-links.php:25
+msgid "RARA: Social Links"
+msgstr ""
+
+#: inc/widgets/widget-social-links.php:26
+msgid "A Social Links Widget"
+msgstr ""
+
+#: inc/widgets/widget-social-links.php:63
+msgid "Linkedin"
+msgstr ""
+
+#: inc/widgets/widget-social-links.php:69
+msgid "GooglePlus"
+msgstr ""
+
+#: inc/widgets/widget-social-links.php:71
+#: inc/widgets/widget-social-links.php:144
+msgid "YouTube"
+msgstr ""
+
+#: inc/widgets/widgets.php:15
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/widgets/widgets.php:17
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/widgets/widgets.php:24
+msgid "Footer Sidebar One"
+msgstr ""
+
+#: inc/widgets/widgets.php:33
+msgid "Footer Sidebar Two"
+msgstr ""
+
+#: inc/widgets/widgets.php:42
+msgid "Footer Sidebar Three"
+msgstr ""
+
+#. Name of the theme
+msgid "Metro Magazine"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Metro Magazine is a modern responsive magazine style WordPress theme "
+"suitable for news, newspaper, magazine, sports, technology, food, travel, "
+"blogs, publishing, business and any kind of sites. The theme is built on "
+"Customizer and it allows you to easily customize your website with live "
+"previews. Metro Magazine includes color scheme and color for categories, "
+"which you can use to change the look and feel of your website with a click. "
+"The theme is Speed and Search Engine Optimized (SEO) to help you easily "
+"climb the google rank. Other feature includes social media integration, "
+"custom widgets, author bio, breadcrumb, advertisement settings, custom CSS, "
+"translation ready and more. Check demo at https://raratheme."
+"com/preview/metro-magazine/ and documentation at https://raratheme."
+"com/documentation/metro-magazine. Read theme details at https://raratheme."
+"com/wordpress-themes/metro-magazine and get free support at https:"
+"//raratheme.com/support-ticket."
+msgstr ""
+
+msgid "Rara Theme"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://raratheme.com/"
+msgstr ""

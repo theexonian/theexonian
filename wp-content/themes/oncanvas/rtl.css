@@ -1,0 +1,435 @@
+/*
+Theme Name: Oncanvas
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+
+blockquote {
+	border-right: 4px solid #e9b330;
+	border-left: none;
+	padding-right: 1em;
+	padding-left: 0;
+}
+
+li > ul,
+li > ol {
+	margin-right: 0;
+	padding: 0 24px 0 0;
+}
+
+/******************************************
+1. General
+******************************************/
+
+.wrapper {
+	text-align: right; 
+}
+
+/******************************************
+2. Header
+******************************************/
+
+.site-header .site-branding {
+	margin-left: auto;
+	text-align: right;
+}
+
+/******************************************
+3. Nav
+******************************************/
+
+#menu-main {
+	text-align: left;
+}
+
+/******************************************
+4. Main Content Sections
+******************************************/
+
+.site-main {
+	float: right;
+}
+
+.site-main-full {
+	float: none;
+}
+
+.wrapper-reversed #site-content {
+	float: left;
+}
+
+#site-aside {
+	float: right;
+}
+
+.site-content-wrapper {
+	padding: 0 0 0 50px;
+}
+
+.wrapper-full .site-content-wrapper,
+.home .site-content-wrapper,
+.archive .site-content-wrapper {
+	padding-left: 0;
+}
+
+.site-aside-wrapper {
+	padding: 0;
+}
+
+.wrapper-reversed .site-content-wrapper {
+	padding-right: 50px;
+	padding-left: 0;
+}
+
+.site-home-welcome-columns .site-home-welcome {
+	padding-right: 0;
+	padding-left: 40px;
+}
+
+.ilovewp-archive-intro {
+	padding-right: 0;
+	padding-left: 34.54545454%;
+}
+
+/******************************************
+5. Individual Content Sections
+******************************************/
+
+#site-content .widget-title,
+#site-aside .widget-title,
+.comments-area .comments-title,
+.pre-footer .widget-title {
+	text-align: right;
+}
+
+.ilovewp-columns .ilovewp-column {
+	float: right;
+}
+
+.ilovewp-columns-2 .ilovewp-column-1 .ilovewp-column-wrapper {
+	padding-right: 0;
+	padding-left: 40px;
+}
+
+.ilovewp-posts-archive .post-meta .entry-date {
+	margin-right: 0;
+	margin-left: 12px;
+}
+
+.ilovewp-posts-archive .ilovewp-post {
+	float: right;
+	margin-right: 0;
+	margin-left: 3.63636363%;
+}
+
+.ilovewp-posts-archive .ilovewp-post-3 {
+	margin-left: 0;
+}
+
+.ilovewp-posts-archive .post-preview,
+.ilovewp-post .read-more-span {
+	text-align: right;
+}
+
+.post-navigation .nav-previous,
+.posts-navigation .nav-previous {
+	border-right: 0;
+	border-left: solid 2px #fff;
+}
+
+.post-navigation .nav-next,
+.posts-navigation .nav-next {
+	border-right: solid 2px #fff;
+	border-left: 0;
+}
+
+.post-single .page-links,
+.post-single .tags-links {
+	text-align: right;
+}
+
+.tags-links a:after {
+	right: 0;
+	left: auto;
+}
+
+/******************************************
+6. Single Post/Page Styling
+******************************************/
+
+.ilovewp-page-intro .post-meta-gravatar {
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+.post-single .alignright {
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.post-single .alignleft {
+	float: right;
+	margin: 0 0 0 20px;
+}
+
+.post-single ul,
+.post-single ol {
+	margin-right: 1.25em;
+	margin-left: 0;
+}
+
+.post-single blockquote {
+    border-right: solid 4px #f4ce21;
+    border-left-width: 0;
+ }
+
+/******************************************
+7. Comments
+******************************************/
+
+.comments-area {
+	text-align: right;
+}
+
+.children .comment {
+	border-right: 5px solid #e7e7e7;
+	border-left-width: 0;
+	padding-right: 24px;
+	padding-left: 0;
+}
+
+.comment-author .avatar {
+	float: right;
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.comment-meta .fn {
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+.comment-tools {
+	float: left;
+}
+
+.comment-reply-link {
+	margin-right: 10px;
+	margin-left: 0;
+}
+
+.comment-respond {
+	padding-right: 0;
+	padding-left: 20px;
+}
+
+/******************************************
+8. Footer
+******************************************/
+
+.site-footer {
+	text-align: left;
+}
+
+.pre-footer {
+	text-align: right;
+}
+
+.pre-footer .ilovewp-column {
+	float: right;
+	margin-right: 0;
+	margin-left: 3.63636363%;
+}
+
+.pre-footer .ilovewp-column-3 {
+	margin-left: 0;
+}
+
+.pre-footer .widget-title {
+	text-align: right;
+}
+
+/******************************************
+9. Miscellaneous
+******************************************/
+
+#searchsubmit {
+	float: right;
+}
+
+/* Social Links */
+.social-links {
+	float: left;
+}
+
+/******************************************
+13. Media Queries (Responsive Feature)
+******************************************/
+ 
+/* Tablet Landscape */
+@media screen and (max-width: 1240px) {
+
+	/* Facebook Like Button */
+	.widget div.fb-like.fb_iframe_widget {
+		width: 100% !important;		
+	}
+
+	.widget .fb_iframe_widget { width: 100%!important }
+	.widget .fb_iframe_widget span { width: 100%!important; }
+	.widget .fb_iframe_widget span iframe { width: 100%!important; }
+	
+	.twitter-follow-button {max-width: 100%; }
+
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 960px) {
+
+	.site-content-wrapper {
+		padding-right: 40px;
+	}
+
+	.comment-respond {
+		padding-right: 0;
+	}
+	
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+
+	#site-content,
+	#site-aside {
+		float: none;
+	}
+
+	#site-aside .widget {
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+	
+	.site-content-wrapper,
+	.ilovewp-archive-intro {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.ilovewp-posts-archive .title-post, 
+	.ilovewp-page-intro .title-page {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.pre-footer .ilovewp-column {
+		margin-left: 6%;
+	}
+
+	.pre-footer .ilovewp-column-2,
+	.pre-footer .ilovewp-column-4 {
+		margin-left: 0;
+	}
+
+	.post-navigation .nav-previous, 
+	.post-navigation .nav-next, 
+	.posts-navigation .nav-previous, 
+	.posts-navigation .nav-next {
+		border-width: 0;
+	}
+	
+	.ilovewp-posts-archive .post-preview {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	/* Main Menu */
+
+	#menu-main {
+		display: none;
+	}
+
+	#site-menu-main,
+	#menu-main-slick {
+		display: none;
+	}
+
+	/* End Menu */
+	
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media screen and (max-width: 640px) {
+
+	.site-home-welcome-columns .site-home-welcome,
+	.site-home-welcome-columns .site-home-welcome-aside {
+		padding: 0;
+	}
+
+	#site-content,
+	#site-aside {
+		float: none;
+	}
+	
+	#site-aside .widget {
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+	
+	.site-header .wrapper-header,
+	.wrapper-footer {
+		text-align: center;
+	}
+	
+	.site-header .site-branding,
+	.wrapper-footer {
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media screen and (max-width: 480px) {
+	
+	.pre-footer .ilovewp-column {
+		float: none;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.ilovewp-posts-archive {
+		text-align: center;
+	}
+
+	.ilovewp-posts-archive .ilovewp-post {
+		float: none;
+	}
+
+	.comment-tools {
+		float: none;
+	}
+
+	.comment-reply-link {
+		margin-right: 0;
+		margin-left: 10px;
+	}
+
+	.site-home-welcome-columns .site-home-welcome {
+		padding-left: 0;
+	}
+	
+}

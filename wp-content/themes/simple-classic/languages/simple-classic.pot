@@ -1,0 +1,177 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Classic v1.8\n"
+"POT-Creation-Date: 2016-08-24 19:11+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:10
+msgid "404: Page not found"
+msgstr ""
+
+#: 404.php:11
+msgid "Sorry, unfortunately, we could not find the requested page."
+msgstr ""
+
+#: archive.php:26 image.php:19 index.php:22 search.php:18 single.php:20
+msgid "Posted on"
+msgstr ""
+
+#: archive.php:28 index.php:25 search.php:20 single.php:22
+msgid "in "
+msgstr ""
+
+#: archive.php:47
+msgid "Pages:"
+msgstr ""
+
+#: archive.php:51 index.php:49 search.php:36
+msgid "Top"
+msgstr ""
+
+#: archive.php:58
+msgid "Nothing Found"
+msgstr ""
+
+#: archive.php:60
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: comments.php:15
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:26
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: footer.php:18
+msgid "Powered by"
+msgstr ""
+
+#: footer.php:19
+msgid "and"
+msgstr ""
+
+#: functions.php:49
+msgid "Header Menu"
+msgstr ""
+
+#: functions.php:74
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:83
+msgid "Choose file..."
+msgstr ""
+
+#: functions.php:84
+msgid "File is not selected."
+msgstr ""
+
+#: functions.php:102
+msgid "Older posts"
+msgstr ""
+
+#: functions.php:103
+msgid "Newer posts"
+msgstr ""
+
+#: functions.php:116
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:118 functions.php:146
+msgid "Edit"
+msgstr ""
+
+#: functions.php:127
+msgid "says:"
+msgstr ""
+
+#: functions.php:130
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:136 image.php:20
+msgid "at"
+msgstr ""
+
+#: functions.php:159
+msgid "Home"
+msgstr ""
+
+#: functions.php:160
+msgid "Category:"
+msgstr ""
+
+#: functions.php:161
+msgid "Results for:"
+msgstr ""
+
+#: functions.php:162
+msgid "Tags:"
+msgstr ""
+
+#: functions.php:163
+msgid "Autors posts:"
+msgstr ""
+
+#: functions.php:164
+msgid "Error 404"
+msgstr ""
+
+#: functions.php:285
+msgid "Page"
+msgstr ""
+
+#: image.php:14 single.php:15
+msgid "Previous"
+msgstr ""
+
+#: image.php:15 single.php:16
+msgid "Next"
+msgstr ""
+
+#: image.php:22
+msgid "in"
+msgstr ""
+
+#: image.php:85 index.php:45 page.php:17 search.php:32 single.php:34
+msgid "Pages: "
+msgstr ""
+
+#: search.php:11
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:43
+msgid "On request, no results!"
+msgstr ""
+
+#: searchform.php:12
+msgid "Enter search keyword"
+msgstr ""
+
+#: searchform.php:15
+msgid "search"
+msgstr ""

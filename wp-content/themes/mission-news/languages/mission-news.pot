@@ -1,0 +1,898 @@
+# Copyright (C) 2018 Compete Themes
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Mission News 1.15\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2018-02-07 18:24:04+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: 404.php:5
+msgid "404: Page Not Found"
+msgstr ""
+
+#: 404.php:8
+msgid "Sorry, we couldn't find a page at this URL"
+msgstr ""
+
+#: 404.php:9
+msgid ""
+"Please double-check that the URL is correct or try searching our site with "
+"the form below."
+msgstr ""
+
+#: comments.php:11 comments.php:31 comments.php:56
+msgid "Be First to Comment"
+msgstr ""
+
+#: comments.php:11 comments.php:31 comments.php:56
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:47
+#. translators: placeholder is link to the trackback URL
+msgid ""
+"Comments are closed, but <a href=\"%s\" title=\"Trackback URL for this "
+"post\">trackbacks</a> and pingbacks are open."
+msgstr ""
+
+#: comments.php:70 comments.php:77
+msgid "Comments are closed."
+msgstr ""
+
+#: content/archive-header.php:13
+msgid "Posts tagged as"
+msgstr ""
+
+#: content/comments-link.php:3
+msgid "comment icon"
+msgstr ""
+
+#: content/comments-link.php:6
+msgid "Comments closed"
+msgstr ""
+
+#: content/comments-link.php:6 content/comments-link.php:8
+msgid "1 Comment"
+msgstr ""
+
+#: content/comments-link.php:6 content/comments-link.php:8
+msgid "% Comments"
+msgstr ""
+
+#: content/comments-link.php:8
+msgid "Leave a Comment"
+msgstr ""
+
+#: content/more-from-category.php:20
+#. Translators: %s is the name of the post category
+msgid "More posts in %s"
+msgstr ""
+
+#: content/post-nav-attachment.php:3
+msgid "Previous Image"
+msgstr ""
+
+#: content/post-nav-attachment.php:6
+msgid "Next Image"
+msgstr ""
+
+#: content/post-tags.php:11
+#. translators: placeholder is the name of the post tag
+msgid "View all posts tagged %s"
+msgstr ""
+
+#: content/search-bar.php:6 content/search-bar.php:9 searchform.php:4
+#: searchform.php:5
+msgid "Search"
+msgstr ""
+
+#: content-page.php:11 content.php:16
+msgid "Pages:"
+msgstr ""
+
+#: footer.php:21
+#. Translators: %s is the URL of the theme
+msgid "<a href=\"%s\">Mission News Theme</a> by Compete Themes."
+msgstr ""
+
+#: functions.php:23
+msgid ""
+"Hey! Sorry to interrupt, but you've been using Mission News for a little "
+"while now. If you're happy with this theme, could you take a minute to "
+"leave a review? <i>You won't see this notice again after closing it.</i>"
+msgstr ""
+
+#: functions.php:66
+msgid "Primary"
+msgstr ""
+
+#: functions.php:67
+msgid "Secondary"
+msgstr ""
+
+#: functions.php:82
+msgid "Left Sidebar"
+msgstr ""
+
+#: functions.php:84
+msgid "Widgets in this area will be shown left of the main post content."
+msgstr ""
+
+#: functions.php:91
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:93
+msgid "Widgets in this area will be shown right of the main post content."
+msgstr ""
+
+#: functions.php:100
+msgid "Ad Spot - Below Header"
+msgstr ""
+
+#: functions.php:102
+msgid ""
+"Widgets in this area will be shown below the header and above the posts and "
+"sidebars."
+msgstr ""
+
+#: functions.php:109
+msgid "Ad Spot - Above Posts"
+msgstr ""
+
+#: functions.php:111
+msgid "Widgets in this area will be shown in the center column above the posts."
+msgstr ""
+
+#: functions.php:118
+msgid "Ad Spot - After Post Content"
+msgstr ""
+
+#: functions.php:120
+msgid "Widgets in this area will be shown on post pages after the content."
+msgstr ""
+
+#: functions.php:127
+msgid "Ad Spot - After Page Content"
+msgstr ""
+
+#: functions.php:129
+msgid "Widgets in this area will be shown on pages after the content."
+msgstr ""
+
+#: functions.php:136
+msgid "Ad Spot - After First Post"
+msgstr ""
+
+#: functions.php:138
+msgid "Widgets in this area will be shown on the blog after the first post."
+msgstr ""
+
+#: functions.php:286
+msgid "Featured"
+msgstr ""
+
+#: functions.php:367
+msgid "Customizer settings deleted"
+msgstr ""
+
+#: functions.php:589
+msgid "(title)"
+msgstr ""
+
+#: header.php:11
+msgid "Press \"Enter\" to skip to content"
+msgstr ""
+
+#: header.php:33 inc/scripts.php:16
+msgid "open menu"
+msgstr ""
+
+#: inc/comments.php:19
+msgid "Post author"
+msgstr ""
+
+#: inc/comments.php:32
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/comments.php:39
+msgid "Reply"
+msgstr ""
+
+#: inc/comments.php:43
+msgid "Edit"
+msgstr ""
+
+#: inc/comments.php:58
+msgid "(optional)"
+msgstr ""
+
+#: inc/comments.php:63
+msgid "Name"
+msgstr ""
+
+#: inc/comments.php:64
+msgid "Jane Doe"
+msgstr ""
+
+#: inc/comments.php:70
+msgid "Email"
+msgstr ""
+
+#: inc/comments.php:71
+msgid "name@email.com"
+msgstr ""
+
+#: inc/comments.php:77
+msgid "Website"
+msgstr ""
+
+#: inc/comments.php:95
+msgid "Comment"
+msgstr ""
+
+#: inc/customizer.php:18
+msgid "Front Page"
+msgstr ""
+
+#: inc/customizer.php:34
+msgid ""
+"<a target=\"_blank\" href=\"%1$s\">%2$s Pro</a> is the plugin that makes "
+"advanced customization simple - coming soon!"
+msgstr ""
+
+#: inc/customizer.php:35
+msgid "%1$s Pro adds the following features to %1$s:"
+msgstr ""
+
+#: inc/customizer.php:37
+msgid "Breaking news ticker"
+msgstr ""
+
+#: inc/customizer.php:38
+msgid "Youtube Featured Videos"
+msgstr ""
+
+#: inc/customizer.php:39
+msgid "Over 700+ fonts"
+msgstr ""
+
+#: inc/customizer.php:40
+msgid "+ 5 more awesome features"
+msgstr ""
+
+#: inc/customizer.php:42
+msgid "View %s Pro"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Show/Hide Elements"
+msgstr ""
+
+#: inc/customizer.php:54
+msgid "Choose which elements you want displayed on the site."
+msgstr ""
+
+#: inc/customizer.php:61 inc/meta-box.php:17
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer.php:62
+msgid "Change the layout of the main content and posts."
+msgstr ""
+
+#: inc/customizer.php:74
+msgid "%s Pro"
+msgstr ""
+
+#: inc/customizer.php:94
+msgid "Post Previews"
+msgstr ""
+
+#: inc/customizer.php:105
+msgid "Post preview layout"
+msgstr ""
+
+#: inc/customizer.php:106
+msgid "Change the layout of the posts listed on the blog and archives."
+msgstr ""
+
+#: inc/customizer.php:111 inc/customizer.php:803
+msgid "Simple"
+msgstr ""
+
+#: inc/customizer.php:112 inc/customizer.php:804
+msgid "Double"
+msgstr ""
+
+#: inc/customizer.php:113 inc/customizer.php:805
+msgid "Rows"
+msgstr ""
+
+#: inc/customizer.php:114 inc/customizer.php:806
+msgid "Rows with excerpts"
+msgstr ""
+
+#: inc/customizer.php:119 inc/customizer.php:517
+msgid "Posts"
+msgstr ""
+
+#: inc/customizer.php:130
+msgid "Post layout"
+msgstr ""
+
+#: inc/customizer.php:131
+msgid "Layouts can be changed for individual posts in the post editor."
+msgstr ""
+
+#: inc/customizer.php:136 inc/customizer.php:164 inc/customizer.php:191
+#: inc/customizer.php:219 inc/customizer.php:248 inc/customizer.php:818
+#: inc/meta-box.php:41
+msgid "Double sidebar"
+msgstr ""
+
+#: inc/customizer.php:137 inc/customizer.php:165 inc/customizer.php:192
+#: inc/customizer.php:220 inc/customizer.php:249 inc/customizer.php:819
+#: inc/meta-box.php:44
+msgid "Left sidebar"
+msgstr ""
+
+#: inc/customizer.php:138 inc/customizer.php:166 inc/customizer.php:193
+#: inc/customizer.php:221 inc/customizer.php:250 inc/customizer.php:820
+#: inc/meta-box.php:47
+msgid "Left sidebar - wide"
+msgstr ""
+
+#: inc/customizer.php:139 inc/customizer.php:167 inc/customizer.php:194
+#: inc/customizer.php:222 inc/customizer.php:251 inc/customizer.php:821
+#: inc/meta-box.php:50
+msgid "Right sidebar"
+msgstr ""
+
+#: inc/customizer.php:140 inc/customizer.php:168 inc/customizer.php:195
+#: inc/customizer.php:223 inc/customizer.php:252 inc/customizer.php:822
+#: inc/meta-box.php:53
+msgid "Right sidebar - wide"
+msgstr ""
+
+#: inc/customizer.php:141 inc/customizer.php:169 inc/customizer.php:196
+#: inc/customizer.php:224 inc/customizer.php:253 inc/customizer.php:823
+#: inc/meta-box.php:56
+msgid "No sidebar"
+msgstr ""
+
+#: inc/customizer.php:142 inc/customizer.php:170 inc/customizer.php:197
+#: inc/customizer.php:225 inc/customizer.php:254 inc/customizer.php:824
+#: inc/meta-box.php:59
+msgid "No sidebar - wide"
+msgstr ""
+
+#: inc/customizer.php:147
+msgid "Pages"
+msgstr ""
+
+#: inc/customizer.php:158
+msgid "Page layout"
+msgstr ""
+
+#: inc/customizer.php:159
+msgid "Layouts can be changed for individual pages in the page editor."
+msgstr ""
+
+#: inc/customizer.php:175
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer.php:186
+msgid "Blog layout"
+msgstr ""
+
+#: inc/customizer.php:202 inc/customizer.php:476
+msgid "Archives"
+msgstr ""
+
+#: inc/customizer.php:213
+msgid "Archive layout"
+msgstr ""
+
+#: inc/customizer.php:214
+msgid "Change the layout for category, tag, date, and author archives."
+msgstr ""
+
+#: inc/customizer.php:231
+msgid "bbPress"
+msgstr ""
+
+#: inc/customizer.php:242
+msgid "Forums layout"
+msgstr ""
+
+#: inc/customizer.php:243
+msgid "Change the layout for all bbPress forum pages."
+msgstr ""
+
+#: inc/customizer.php:263
+msgid "Social Media Icons"
+msgstr ""
+
+#: inc/customizer.php:265
+msgid "Add the URL for each of your social profiles."
+msgstr ""
+
+#: inc/customizer.php:284
+msgid "Email Address"
+msgstr ""
+
+#: inc/customizer.php:293
+msgid "Google Plus"
+msgstr ""
+
+#: inc/customizer.php:295
+msgid "RSS"
+msgstr ""
+
+#: inc/customizer.php:297
+msgid "SoundCloud"
+msgstr ""
+
+#: inc/customizer.php:299
+msgid "SlideShare"
+msgstr ""
+
+#: inc/customizer.php:301
+msgid "CodePen"
+msgstr ""
+
+#: inc/customizer.php:303
+msgid "StumbleUpon"
+msgstr ""
+
+#: inc/customizer.php:305
+msgid "DeviantArt"
+msgstr ""
+
+#: inc/customizer.php:307
+msgid "Hacker News"
+msgstr ""
+
+#: inc/customizer.php:309
+msgid "WhatsApp"
+msgstr ""
+
+#: inc/customizer.php:311
+msgid "QQ"
+msgstr ""
+
+#: inc/customizer.php:313
+msgid "VK"
+msgstr ""
+
+#: inc/customizer.php:315
+msgid "WeChat"
+msgstr ""
+
+#: inc/customizer.php:317
+msgid "Tencent Weibo"
+msgstr ""
+
+#: inc/customizer.php:319
+msgid "PayPal"
+msgstr ""
+
+#: inc/customizer.php:321
+msgid "Contact Form"
+msgstr ""
+
+#: inc/customizer.php:323
+msgid "Google Wallet"
+msgstr ""
+
+#: inc/customizer.php:325
+msgid "OK.ru"
+msgstr ""
+
+#: inc/customizer.php:347
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:358
+msgid "Show today's date?"
+msgstr ""
+
+#: inc/customizer.php:363 inc/customizer.php:379 inc/customizer.php:395
+#: inc/customizer.php:411 inc/customizer.php:436 inc/customizer.php:452
+#: inc/customizer.php:468 inc/customizer.php:493 inc/customizer.php:509
+#: inc/customizer.php:534 inc/customizer.php:550 inc/customizer.php:566
+#: inc/customizer.php:582 inc/customizer.php:598 inc/customizer.php:614
+#: inc/customizer.php:630 inc/customizer.php:646 inc/customizer.php:671
+#: inc/customizer.php:687 inc/customizer.php:712 inc/customizer.php:728
+#: inc/customizer.php:752 inc/customizer.php:783
+msgid "Yes"
+msgstr ""
+
+#: inc/customizer.php:364 inc/customizer.php:380 inc/customizer.php:396
+#: inc/customizer.php:412 inc/customizer.php:437 inc/customizer.php:453
+#: inc/customizer.php:469 inc/customizer.php:494 inc/customizer.php:510
+#: inc/customizer.php:535 inc/customizer.php:551 inc/customizer.php:567
+#: inc/customizer.php:583 inc/customizer.php:599 inc/customizer.php:615
+#: inc/customizer.php:631 inc/customizer.php:647 inc/customizer.php:672
+#: inc/customizer.php:688 inc/customizer.php:713 inc/customizer.php:729
+#: inc/customizer.php:753 inc/customizer.php:784
+msgid "No"
+msgstr ""
+
+#: inc/customizer.php:374 inc/customizer.php:707
+msgid "Show the social icons?"
+msgstr ""
+
+#: inc/customizer.php:390 inc/customizer.php:723
+msgid "Show the tagline?"
+msgstr ""
+
+#: inc/customizer.php:406
+msgid "Show the search bar?"
+msgstr ""
+
+#: inc/customizer.php:419
+msgid "Blog & Archives"
+msgstr ""
+
+#: inc/customizer.php:420
+msgid "These settings apply to the main posts page and all archives."
+msgstr ""
+
+#: inc/customizer.php:431
+msgid "Show the Featured Images?"
+msgstr ""
+
+#: inc/customizer.php:447 inc/customizer.php:545
+msgid "Show the post author?"
+msgstr ""
+
+#: inc/customizer.php:463 inc/customizer.php:561
+msgid "Show the post date?"
+msgstr ""
+
+#: inc/customizer.php:477
+msgid "These settings apply to the category, tag, date, and author archives."
+msgstr ""
+
+#: inc/customizer.php:488
+msgid "Show the archive title?"
+msgstr ""
+
+#: inc/customizer.php:504
+msgid "Show the archive description?"
+msgstr ""
+
+#: inc/customizer.php:518
+msgid "These settings apply to individual post pages."
+msgstr ""
+
+#: inc/customizer.php:529
+msgid "Show the Featured Image?"
+msgstr ""
+
+#: inc/customizer.php:577
+msgid "Show the category links?"
+msgstr ""
+
+#: inc/customizer.php:593
+msgid "Show the tag links?"
+msgstr ""
+
+#: inc/customizer.php:609
+msgid "Show avatar in the author box?"
+msgstr ""
+
+#: inc/customizer.php:625
+msgid "Show the author box?"
+msgstr ""
+
+#: inc/customizer.php:641
+msgid "Show the \"More from...\" section?"
+msgstr ""
+
+#: inc/customizer.php:654
+msgid "Comments"
+msgstr ""
+
+#: inc/customizer.php:655
+msgid "These settings apply to post comments."
+msgstr ""
+
+#: inc/customizer.php:666
+msgid "Show the comment date?"
+msgstr ""
+
+#: inc/customizer.php:682
+msgid "Show the \"Post Author\" label?"
+msgstr ""
+
+#: inc/customizer.php:695
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:696
+msgid "These settings apply to the footer."
+msgstr ""
+
+#: inc/customizer.php:737
+msgid "Excerpts"
+msgstr ""
+
+#: inc/customizer.php:747
+msgid "Show full posts on blog?"
+msgstr ""
+
+#: inc/customizer.php:763 inc/widgets/post-list.php:234
+msgid "Excerpt word count"
+msgstr ""
+
+#: inc/meta-box.php:39
+msgid "Use layout set in Customizer"
+msgstr ""
+
+#: inc/review.php:113
+msgid "Click here to leave your review"
+msgstr ""
+
+#: inc/scripts.php:17
+msgid "close menu"
+msgstr ""
+
+#: inc/scripts.php:18
+msgid "open dropdown menu"
+msgstr ""
+
+#: inc/scripts.php:19
+msgid "close dropdown menu"
+msgstr ""
+
+#: inc/social-icons.php:111
+msgid "email"
+msgstr ""
+
+#: inc/widgets/post-list.php:15
+msgid "A more robust recent posts widget. Added by the Mission News theme."
+msgstr ""
+
+#: inc/widgets/post-list.php:19
+msgid "Recent Posts Extended"
+msgstr ""
+
+#: inc/widgets/post-list.php:157
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/post-list.php:160
+msgid "Post Source"
+msgstr ""
+
+#: inc/widgets/post-list.php:164 inc/widgets/post-list.php:167
+msgid "Category"
+msgstr ""
+
+#: inc/widgets/post-list.php:178 inc/widgets/post-list.php:181
+msgid "Tag"
+msgstr ""
+
+#: inc/widgets/post-list.php:191
+msgid "Relationship"
+msgstr ""
+
+#: inc/widgets/post-list.php:193
+msgid "AND"
+msgstr ""
+
+#: inc/widgets/post-list.php:194
+msgid "OR"
+msgstr ""
+
+#: inc/widgets/post-list.php:200
+msgid ""
+"Selecting both a category and a tag will require posts to be in both. If "
+"you'd like to get posts from either the category or tag, switch the "
+"\"Relationship\" option to \"OR.\" If you'd like to use\n"
+"\t\t\t\t\t\tthe most recent posts from any tag or category, uncheck both "
+"\"Category\" and \"Tag.\""
+msgstr ""
+
+#: inc/widgets/post-list.php:206
+msgid "Content"
+msgstr ""
+
+#: inc/widgets/post-list.php:210
+msgid "Show author in byline"
+msgstr ""
+
+#: inc/widgets/post-list.php:214
+msgid "Show date in byline"
+msgstr ""
+
+#: inc/widgets/post-list.php:218
+msgid "Show Featured Images"
+msgstr ""
+
+#: inc/widgets/post-list.php:222
+msgid "Show excerpt"
+msgstr ""
+
+#: inc/widgets/post-list.php:226
+msgid "Show comments link"
+msgstr ""
+
+#: inc/widgets/post-list.php:230
+msgid "Number of posts"
+msgstr ""
+
+#: inc/widgets/post-list.php:237 inc/widgets/post-list.php:240
+msgid "Style"
+msgstr ""
+
+#: inc/widgets/post-list.php:242
+msgid "Style 1"
+msgstr ""
+
+#: inc/widgets/post-list.php:243
+msgid "Style 2"
+msgstr ""
+
+#: menu-primary.php:3
+#. translators: The label of the "Back" link in primary navigation
+msgid "Back"
+msgstr ""
+
+#: search.php:9
+#. translators: %1$s = number of results. %2$s = search query
+msgid "%1$s search result for %2$s"
+msgid_plural "%1$s search results for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: search.php:12
+#. translators: %s = search query
+msgid "No search results for \"%s\""
+msgstr ""
+
+#: search.php:34
+msgid "Can't find what you're looking for?  Try refining your search:"
+msgstr ""
+
+#: searchform.php:4
+msgid " Search for..."
+msgstr ""
+
+#: theme-options.php:11 theme-options.php:34
+#. Translators: %s is the name of the theme (Mission News)
+msgid "%s Dashboard"
+msgstr ""
+
+#: theme-options.php:39
+msgid "Get Started"
+msgstr ""
+
+#: theme-options.php:42
+#. Translators: %1$s and %2$s are the name of the theme (Mission News)
+msgid ""
+"Not sure where to start? The %1$s Getting Started Guide will take you "
+"step-by-step through every feature in %1$s."
+msgstr ""
+
+#: theme-options.php:46
+msgid "View Guide"
+msgstr ""
+
+#: theme-options.php:51
+msgid "Mission News Pro - Coming Soon!"
+msgstr ""
+
+#: theme-options.php:52
+msgid ""
+"Download the %s Pro plugin and unlock the breaking news ticker, featured "
+"posts sliders, Youtube embeds, and more"
+msgstr ""
+
+#: theme-options.php:55
+msgid "See Full Feature List"
+msgstr ""
+
+#: theme-options.php:60 theme-options.php:66
+msgid "Leave a Review"
+msgstr ""
+
+#: theme-options.php:63
+#. Translators: %s is the name of the theme (Mission News)
+msgid "Help others find %s by leaving a review on wordpress.org."
+msgstr ""
+
+#: theme-options.php:69 theme-options.php:79
+msgid "Reset Customizer Settings"
+msgstr ""
+
+#: theme-options.php:72
+#. Translators:  %1$s is the URL of the Customizer. %2$s is the name of the
+#. theme (Mission News)
+msgid ""
+"<strong>Warning:</strong> Clicking this button will erase the %2$s theme's "
+"current settings in the <a href=\"%1$s\">Customizer</a>."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"For publishers on a mission. Mission News is a newspaper theme for "
+"publishers who want their content to be seen and heard. Premium-quality "
+"design adds credibility to every word you write, and a fully responsive "
+"layout ensures your site looks fantastic on every screen. The aesthetic is "
+"timeless and modeled after classic news sites like the New York Times. Use "
+"Mission News to setup a news site on any subject from health to finance. "
+"View the fully-setup live demo here: "
+"https://www.competethemes.com/demos/?theme=mission"
+msgstr ""
+
+#: comments.php:11 comments.php:31 comments.php:56
+msgctxt "noun: 5 comments"
+msgid "% Comments"
+msgstr ""
+
+#: content/archive-header.php:9
+msgctxt "Posts published in CATEGORY"
+msgid "Posts published in"
+msgstr ""
+
+#: content/archive-header.php:16
+msgctxt "Posts published by AUTHOR"
+msgid "Posts published by"
+msgstr ""
+
+#: content/archive-header.php:20
+msgctxt "Posts published in MONTH"
+msgid "Posts published in"
+msgstr ""
+
+#: content/more-from-category.php:18
+msgctxt "More from POST CATEGORY"
+msgid "More from"
+msgstr ""
+
+#: content/post-categories.php:10
+msgctxt "PUBLISHED IN post category"
+msgid "Published in"
+msgstr ""
+
+#: content/post-categories.php:14
+msgctxt "category AND category"
+msgid "and"
+msgstr ""
+
+#: content/post-categories.php:17
+#. translators: placeholder is the name of the post category
+msgctxt "View all posts in post category"
+msgid "View all posts in %s"
+msgstr ""
+
+#: functions.php:270
+msgctxt "verb: open the menu"
+msgid "open menu"
+msgstr ""
+
+#: functions.php:573
+#. translators: %s = the author who published the post
+msgctxt "This blog post was published by some author"
+msgid "By %s"
+msgstr ""
+
+#: functions.php:576
+#. translators: %1$s = the author who published the post. %2$s = the date it
+#. was published
+msgctxt "This blog post was published by some author on some date "
+msgid "By %1$s on %2$s"
+msgstr ""

@@ -1,0 +1,439 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Oncanvas\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Mon May 16 2016 15:45:27 GMT+0300 (E. Europe Daylight "
+"Time)\n"
+"POT-Revision-Date: Tue Apr 11 2017 13:52:43 GMT+0200 (W. Europe Daylight "
+"Time)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../404.php:23
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../404.php:24
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: ../404.php:44
+msgid "Popular Categories"
+msgstr ""
+
+#: ../archive.php:48 ../index.php:71 ../search.php:46
+msgid "Older Posts"
+msgstr ""
+
+#: ../archive.php:49 ../index.php:72 ../search.php:47
+msgid "Newer Posts"
+msgstr ""
+
+#: ../comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title
+#: ../comments.php:37
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:53 ../comments.php:74
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:56 ../comments.php:77
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:57 ../comments.php:78
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:90
+msgid "Comments are closed."
+msgstr ""
+
+#: ../footer.php:19
+msgid "Copyright &copy;"
+msgstr ""
+
+#: ../footer.php:19
+msgid "Y"
+msgstr ""
+
+#: ../footer.php:19
+msgid "All Rights Reserved"
+msgstr ""
+
+#: ../footer.php:20
+msgid "Theme by"
+msgstr ""
+
+#: ../footer.php:20
+msgid "Portfolio WordPress Themes"
+msgstr ""
+
+#: ../functions.php:54
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:115
+msgid "Main Sidebar"
+msgstr ""
+
+#: ../functions.php:117
+msgid "This is the main sidebar area that appears on all pages"
+msgstr ""
+
+#: ../functions.php:125
+msgid "Homepage: Welcome (Left)"
+msgstr ""
+
+#: ../functions.php:127
+msgid ""
+"This is displayed on the homepage. It is recommended to add a single Text "
+"Widget. The widget title is wrapped inside a <h1></h1> tag."
+msgstr ""
+
+#: ../functions.php:135
+msgid "Homepage: Welcome (Right)"
+msgstr ""
+
+#: ../functions.php:137
+msgid ""
+"This is displayed on the homepage. Works best with an Image widget and/or a "
+"Social Icons widget."
+msgstr ""
+
+#: ../functions.php:145
+msgid "Footer: Column 1"
+msgstr ""
+
+#: ../functions.php:147 ../functions.php:157 ../functions.php:167
+msgid ""
+"This is displayed in the footer of the website. By default has a width of "
+"340px."
+msgstr ""
+
+#: ../functions.php:155
+msgid "Footer: Column 2"
+msgstr ""
+
+#: ../functions.php:165
+msgid "Footer: Column 3"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Lato, translate this to 'off'. Do not translate into your own language.
+#: ../functions.php:204
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language.
+#: ../functions.php:209
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../functions.php:252
+msgctxt "The main label for the expandable mobile menu"
+msgid "HOME"
+msgstr ""
+
+#: ../header.php:23
+msgid "Skip to content"
+msgstr ""
+
+#: ../inc/customizer.php:57
+msgid "Page Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:67
+msgid "Footer Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:81
+msgid "Link Color"
+msgstr ""
+
+#: ../inc/customizer.php:92
+msgid "Link Color :hover"
+msgstr ""
+
+#: ../inc/customizer.php:103
+msgid "Main Text Color"
+msgstr ""
+
+#: ../inc/customizer.php:114
+msgid "Secondary Text Color"
+msgstr ""
+
+#: ../inc/customizer.php:124
+msgid "Highlight Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:132
+msgid "Theme Options"
+msgstr ""
+
+#: ../inc/customizer.php:133
+msgid "Oncanvas Theme Options"
+msgstr ""
+
+#: ../inc/customizer.php:137
+msgid "Header"
+msgstr ""
+
+#: ../inc/customizer.php:147
+msgid "Display site title and tagline in the header."
+msgstr ""
+
+#: ../inc/customizer.php:171 ../inc/customizer.php:224
+msgid "None"
+msgstr ""
+
+#: ../inc/customizer.php:343
+msgid "Default"
+msgstr ""
+
+#: ../inc/jetpack.php:43
+msgid "Load more posts"
+msgstr ""
+
+#: ../inc/plugin-enhancements.php:82
+#, php-format
+msgid "The %1$s is necessary to use some of this theme&rsquo;s features, including: "
+msgstr ""
+
+#: ../inc/plugin-enhancements.php:83
+msgid "Jetpack plugin"
+msgstr ""
+
+#: ../inc/plugin-enhancements.php:106
+msgid "Site Logo"
+msgstr ""
+
+#: ../inc/plugin-enhancements.php:115
+msgid "Featured Content"
+msgstr ""
+
+#: ../inc/plugin-enhancements.php:124
+msgid "Social Menu"
+msgstr ""
+
+#: ../inc/plugin-enhancements.php:133
+msgid "Menus"
+msgstr ""
+
+#: ../inc/plugin-enhancements.php:142
+msgid "Comics"
+msgstr ""
+
+#: ../inc/plugin-enhancements.php:151
+msgid "Testimonials"
+msgstr ""
+
+#: ../inc/plugin-enhancements.php:160
+msgid "Portfolios"
+msgstr ""
+
+#: ../inc/plugin-enhancements.php:178
+msgid "no specific module needed"
+msgstr ""
+
+#: ../inc/plugin-enhancements.php:179
+msgid "Custom Content Types module"
+msgstr ""
+
+#: ../inc/plugin-enhancements.php:256
+#, php-format
+msgid " Please activate %1$s. %2$s"
+msgstr ""
+
+#: ../inc/plugin-enhancements.php:258
+msgid "Activate"
+msgstr ""
+
+#: ../inc/plugin-enhancements.php:266
+#, php-format
+msgid " Please install %1$s. %2$s"
+msgstr ""
+
+#: ../inc/plugin-enhancements.php:268
+msgid "Install"
+msgstr ""
+
+#: ../inc/plugin-enhancements.php:293
+#, php-format
+msgid "To use %1$s, please activate the Jetpack plugin&rsquo;s %2$s."
+msgstr ""
+
+#: ../inc/plugin-enhancements.php:389
+msgid "Your request failed permission check."
+msgstr ""
+
+#: ../inc/plugin-enhancements.php:396
+msgid "Your request was processed. See ya!"
+msgstr ""
+
+#: ../inc/template-tags.php:22
+msgid "Pingback:"
+msgstr ""
+
+#: ../inc/template-tags.php:22 ../inc/template-tags.php:50
+msgid "Edit"
+msgstr ""
+
+#: ../inc/template-tags.php:40
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../inc/template-tags.php:46
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. translators: %s: Name of current post
+#: ../inc/template-tags.php:89
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: ../index.php:60
+msgid "Recent Posts"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width Page"
+msgstr ""
+
+#. Name of the template
+msgid "Sidebar-Page"
+msgstr ""
+
+#: ../search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../template-parts/content-home-featured.php:33
+msgid "Featured Posts"
+msgstr ""
+
+#: ../template-parts/content-home-featured.php:96
+msgid "No Featured Posts Found"
+msgstr ""
+
+#: ../template-parts/content-home-featured.php:99
+msgid ""
+"This section will display your featured posts. Configure (or disable) it via "
+"the Customizer."
+msgstr ""
+
+#: ../template-parts/content-home-featured.php:100
+#, php-format
+msgid ""
+"You can mark your posts with a \"Featured\" tag on the Edit Post page. <a "
+"href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../template-parts/content-home-featured.php:101
+msgid ""
+"Important: This message is NOT visible to site visitors, only to admins and "
+"editors."
+msgstr ""
+
+#: ../template-parts/content-none.php:17
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../template-parts/content-none.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../template-parts/content-none.php:25
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: ../template-parts/content-page.php:23 ../template-parts/content-single.php:27
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../template-parts/content-page.php:30 ../template-parts/content-single.php:34
+msgid "Pages:"
+msgstr ""
+
+#: ../template-parts/content-single.php:16
+msgid "In"
+msgstr ""
+
+#: ../template-parts/content-single.php:16 ../template-parts/content.php:27
+msgctxt "Used on archive and post pages to separate multiple categories."
+msgid ", "
+msgstr ""
+
+#: ../template-parts/content-single.php:40
+msgid ", "
+msgstr ""
+
+#: ../template-parts/content-single.php:42
+#, php-format
+msgid "Tags: %1$s"
+msgstr ""
+
+#. Name of the theme
+msgid "Oncanvas"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://www.ilovewp.com/themes/oncanvas/"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Oncanvas is a light and minimal distraction-free portfolio theme. It "
+"displays posts in a 3-column grid layout, without a sidebar on the homepage "
+"and archive pages."
+msgstr ""
+
+#. Author of the theme
+msgid "ilovewpcom"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://www.ilovewp.com/"
+msgstr ""

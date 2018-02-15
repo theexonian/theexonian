@@ -1,0 +1,102 @@
+/*
+Theme Name: Oncanvas
+Description: Used to style the TinyMCE editor.
+*/
+
+/**
+ * 1.0 - Body
+ */
+
+body {
+	color: #333;
+	font-family: 'Lato', 'Roboto', Arial, Tahoma, sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 1.75em;
+	margin: 20px 20px 20px 40px;
+	max-width: 750px;
+	vertical-align: baseline;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #131313;
+	font-family: 'Lato', Arial, Tahoma, sans-serif;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 1em 0;
+}
+
+h1 { font-size: 32px; }
+h2 { font-size: 26px; }
+h3 { font-size: 24px; }
+h4 { font-size: 22px; }
+h5 { font-size: 20px; }
+h6 { font-size: 18px; }
+
+p {
+	margin-top: 0;
+	margin-bottom: 1.5em; 
+}
+
+img {
+	margin-bottom: 20px; 
+}
+
+img.alignnone, 
+img.aligncenter, 
+img.alignleft, 
+img.alignright {
+	max-width: 100%;
+	width:auto;
+ 	height:auto;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin: 0 0 0 20px;
+}
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin: 0 0 0 20px;
+}
+
+iframe {
+	max-width: 100%;
+}
+
+textarea {
+	max-width: 97%;
+}
+
+blockquote {
+    border-left: solid 4px #f4ce21;
+    padding: 0 1em;
+    margin: 1em;
+}
+a {
+	color: #3F88C5;
+	text-decoration:none; 
+}
+a:hover,
+a:focus {
+	color: #e3713d;
+	cursor: pointer;
+	text-decoration:underline; 
+}
+
+ul,
+ol {
+	margin: 0 0 1.75em 1.25em;
+	padding: 0;
+}
+
+ul li {
+	list-style-type: disc;
+}
+
+ol li {
+	list-style-type: decimal;
+}

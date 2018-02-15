@@ -1,0 +1,113 @@
+/*
+Styles for older IE versions (previous to IE10).
+*/
+.ie body {
+}
+.ie7 input[type="submit"] {
+	padding: 0 3px 0 ;
+	position: relative;
+	border-radius: 5px;
+	behavior: url('PIE.htc');
+}
+.ie7 input[type="button"] {
+	padding: 0 3px 0 ;
+	position: relative;
+	border-radius: 5px;
+	behavior: url('PIE.htc');
+}
+.ie7 input[type="reset"] {
+	padding: 0 3px 0;
+	position: relative;
+	behavior: url('PIE.htc');
+}
+.ie7 .smplclssc_tags {
+	min-height: 37px;
+}
+.ie7 .smplclssc_tags p {
+	margin: 17px 0;
+}
+.ie8 input[type="submit"], input[type="button"], input[type="reset"] {
+	position: relative;
+	behavior: url('PIE.htc');
+}
+.ie8 img {
+	width: inherit;
+	height: auto !important;
+}
+.ie8 .attachment-thumbnail {
+    width: 100%;
+}
+.ie #smplclssc_search {
+	position: relative;
+}
+.ie7 #smplclssc_search input[type="submit"]{
+	padding: 0 10px 1px;
+	position: relative;
+    border-radius: 5px;
+    behavior: url('PIE.htc');
+}
+.ie8 #smplclssc_search input[type="submit"] {
+	margin: -2px 25px 0 0;
+}
+.ie #smplclssc_search input[type="text"] {
+	padding: 15px 0 0 10px;
+	width: 171px;
+	height: 32px;
+	position: relative;
+    border-radius: 5px;
+    behavior: url('PIE.htc');
+}
+.ie input[type="text"] {
+	width: 209px;
+	height: 32px;
+	padding: 15px 0 0 10px;
+	position: relative;
+    border-radius: 5px;
+    behavior: url('PIE.htc');
+}
+.ie input[type="password"] {
+	width: 209px;
+	height: 32px;
+	padding: 15px 0 0 10px;
+	position: relative;
+    border-radius: 5px;
+    behavior: url('PIE.htc');
+}
+.ie textarea {
+	position: relative;
+	behavior: url('PIE.htc');
+}
+.ie7 #smplclssc_wrap-img {
+	margin: 10px auto 5px;
+}
+#smplclssc_quotes-and-tips {
+	margin: 0 ;
+	padding: 0;
+}
+.ie7 ul {
+	margin: 0 0 0 30px;
+}
+.ie7 ol {
+	margin: 0 0 0 30px
+}
+.ie7 .smplclssc_widget ul {
+	margin: 0;
+	padding: 0 5px 0 ;
+}
+.ie .widget_search .smplclssc_search-txt {
+    color: #999999;
+    float: left;
+    font-family: open_sanslight;
+    font-size: 12px;
+    height: 23px;
+    margin: 0;
+    padding: 7px 0 0 10px;
+    width: 150px;
+}
+.ie7 .smplclssc_widget ul ul ul {
+    margin-bottom: 0;
+    padding: 0 5px 0 15px;
+}
+.ie .checkboxes {
+	margin: 10px 0 10px 29px;
+}

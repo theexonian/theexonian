@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Classic v1.8\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2016-08-24 19:11+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:10
+msgid "404: Page not found"
+msgstr "404: Страница не найдена"
+
+#: 404.php:11
+msgid "Sorry, unfortunately, we could not find the requested page."
+msgstr "Извините, к сожалению, запрашиваемая вами страница не найдена."
+
+#: archive.php:26 image.php:19 index.php:22 search.php:18 single.php:20
+msgid "Posted on"
+msgstr "Опубликовано"
+
+#: archive.php:28 index.php:25 search.php:20 single.php:22
+msgid "in "
+msgstr "в "
+
+#: archive.php:47
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: archive.php:51 index.php:49 search.php:36
+msgid "Top"
+msgstr "Вверх"
+
+#: archive.php:58
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: archive.php:60
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+"Извините, но запрашиваемая Вами страница не найдена. Возможно, поиск поможет."
+
+#: comments.php:15
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Эта публикация защищена паролем. Введите пароль для просмотра комментариев."
+
+#: comments.php:26
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментарий к &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментария к &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s комментариев к &ldquo;%2$s&rdquo;"
+
+#: footer.php:18
+msgid "Powered by"
+msgstr "Создано"
+
+#: footer.php:19
+msgid "and"
+msgstr "и"
+
+#: functions.php:49
+msgid "Header Menu"
+msgstr "Главное Меню"
+
+#: functions.php:74
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: functions.php:83
+msgid "Choose file..."
+msgstr "Выберите файл..."
+
+#: functions.php:84
+msgid "File is not selected."
+msgstr "Файл не выбран."
+
+#: functions.php:102
+msgid "Older posts"
+msgstr "Предыдущие записи"
+
+#: functions.php:103
+msgid "Newer posts"
+msgstr "Следующие записи"
+
+#: functions.php:116
+msgid "Pingback:"
+msgstr "Уведомление:"
+
+#: functions.php:118 functions.php:146
+msgid "Edit"
+msgstr "Изменить"
+
+#: functions.php:127
+msgid "says:"
+msgstr "сказал(а):"
+
+#: functions.php:130
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+#: functions.php:136 image.php:20
+msgid "at"
+msgstr "в"
+
+#: functions.php:159
+msgid "Home"
+msgstr "Главная"
+
+#: functions.php:160
+msgid "Category:"
+msgstr "Категория:"
+
+#: functions.php:161
+msgid "Results for:"
+msgstr "Результаты для:"
+
+#: functions.php:162
+msgid "Tags:"
+msgstr "Метки:"
+
+#: functions.php:163
+msgid "Autors posts:"
+msgstr "Публикации автора:"
+
+#: functions.php:164
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#: functions.php:285
+msgid "Page"
+msgstr "Страница"
+
+#: image.php:14 single.php:15
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: image.php:15 single.php:16
+msgid "Next"
+msgstr "Следующий"
+
+#: image.php:22
+msgid "in"
+msgstr "в"
+
+#: image.php:85 index.php:45 page.php:17 search.php:32 single.php:34
+msgid "Pages: "
+msgstr "Страницы: "
+
+#: search.php:11
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#: search.php:43
+msgid "On request, no results!"
+msgstr "По запросу ничего не найдено!"
+
+#: searchform.php:12
+msgid "Enter search keyword"
+msgstr "Введите поисковый запрос"
+
+#: searchform.php:15
+msgid "search"
+msgstr "поиск"
+
+#~ msgid "Search ..."
+#~ msgstr "Поиск..."
+
+#~ msgid "Welcome to our blog!"
+#~ msgstr "Добро пожаловать на наш блог!"
+
+#~ msgid "recent post"
+#~ msgstr "последние публикации"
+
+#~ msgid "recent comments"
+#~ msgstr "последние комментарии"
+
+#~ msgid "on"
+#~ msgstr "в"
+
+#~ msgid "archives"
+#~ msgstr "архив блога:"
+
+#~ msgid "categories"
+#~ msgstr "категории:"
+
+#~ msgid "meta"
+#~ msgstr "meta"
+
+#~ msgid "Copyright"
+#~ msgstr "Копирайт"
+
+#~ msgid "Simple Classic WordPress theme, Copyright"
+#~ msgstr "Simple Classic WordPress theme, Copyright"
+
+#~ msgid "WordPress"
+#~ msgstr "WordPress"
+
+#~ msgid "Daily Archives:"
+#~ msgstr "Ежедневные архивы:"
+
+#~ msgid "Monthly Archives:"
+#~ msgstr "Ежемесячные архивы:"
+
+#~ msgid "Yearly Archives:"
+#~ msgstr "Ежегодные архивы:"
+
+#~ msgid "Blog Archives"
+#~ msgstr "Архив блога:"
+
+#~ msgid "One thought on"
+#~ msgstr "Один комментарий для"
+
+#~ msgid "thoughts on"
+#~ msgstr "комментарии для"
+
+#~ msgid "Category Archives:"
+#~ msgstr "Архив Категорий:"
+
+#~ msgid "Tag Archives:"
+#~ msgstr "Архив Тегов:"
+
+#~ msgid "Read more"
+#~ msgstr "Подробнее"
+
+#~ msgid "View all posts in %s"
+#~ msgstr "Показать все публикации в %s"
+
+#~ msgid "Sorry, nothing found."
+#~ msgstr "Извините, ничего не найдено"
+
+#~ msgid "Image"
+#~ msgstr "Картинка"
+
+#~ msgid "Download high resolution image"
+#~ msgstr "Загрузить картинку с большим разрешением"
+
+#~ msgid "Page %s"
+#~ msgstr "Страница %s"
+
+#~ msgid "%1$s at %2$s"
+#~ msgstr "из"
+
+#~ msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+#~ msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущий"
+
+#~ msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "Следующий <span class=\"meta-nav\">&rarr;</span>"
+
+#~ msgid "WP Boot"
+#~ msgstr "WP Boot"
+
+#~ msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+#~ msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущие посты"
+
+#~ msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "Следующие посты <span class=\"meta-nav\">&rarr;</span>"
+
+#~ msgid "%s <span class=\"says\">says:</span>"
+#~ msgstr "%s <span class=\"говорит\">says:</span>"
